@@ -1,674 +1,123 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.964; Version 2009; 64bit' Language: 'en' Physical Memory: 16061 MB
+OS: 'Windows 10 Home Single Language; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 12170 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+C:\Users\ASUS\Desktop\Unity - Game Development\2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/Project/Din-Don-s-Adventure/Jump-Fever
+D:/git/Din-Don-s-Adventure/Din-Don-s-Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57791
-Successfully changed project path to: C:/Users/user/Desktop/Project/Din-Don-s-Adventure/Jump-Fever
-C:/Users/user/Desktop/Project/Din-Don-s-Adventure/Jump-Fever
+50674
+Successfully changed project path to: D:/git/Din-Don-s-Adventure/Din-Don-s-Adventure
+D:/git/Din-Don-s-Adventure/Din-Don-s-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 76.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/Project/Din-Don-s-Adventure/Jump-Fever/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/git/Din-Don-s-Adventure/Din-Don-s-Adventure/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
     Vendor:   
-    VRAM:     8030 MB
-    Driver:   27.20.100.9168
+    VRAM:     2010 MB
+    Driver:   27.21.14.5167
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Mono path[0] = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002979 seconds.
+Register platform support module: C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003062 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 82.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.606 seconds
+- Completed reload, in  2.202 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001042 seconds.
+Registered in 0.001482 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.57 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 83.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  2.089 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
+System memory in use before: 84.9 MB.
 System memory in use after: 84.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 1.864800 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.052300 ms MarkObjects: 1.547200 ms  DeleteObjects: 0.116900 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 3.644500 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.119200 ms MarkObjects: 3.020400 ms  DeleteObjects: 0.226100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Player - Din/din_jump_fall.png
-  artifactKey: Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_jump_fall.png using Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c034e3baa576a9fb52d5eb295e5273') in 0.083451 seconds
-  Import took 0.086868 seconds .
+  path: Assets/Prefabs/Collectibles/Food/cherry.prefab
+  artifactKey: Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Food/cherry.prefab using Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864e4847ac1cfde076d339b96126da8a') in 0.260117 seconds
+  Import took 0.266194 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.744635 seconds.
-  path: Assets/Sprites/Player - Din/din_jump_fall.png
-  artifactKey: Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_jump_fall.png using Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae2d555d8df3934f5c7e2dbad18becf') in 0.044299 seconds
-  Import took 0.047832 seconds .
+  Time since last request: 0.000654 seconds.
+  path: Assets/Prefabs/Collectibles/Food/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Food/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90811b65e32eddfa38bdd84139fbbc1c') in 0.032842 seconds
+  Import took 0.040307 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.354992 seconds.
-  path: Assets/Animations/Player/Din/din_hurt.controller
-  artifactKey: Guid(1e138a50533f30244a7e313773926b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Din/din_hurt.controller using Guid(1e138a50533f30244a7e313773926b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad63d8bb4dbd73c3d7a060c624e92a6') in 0.009676 seconds
-  Import took 0.013532 seconds .
+  Time since last request: 0.000475 seconds.
+  path: Assets/Prefabs/Collectibles/Food
+  artifactKey: Guid(a4ef82bf22839414583294a114cbf78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Food using Guid(a4ef82bf22839414583294a114cbf78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760055e13ef0019b1e2a9eb5eb6a7536') in 0.024550 seconds
+  Import took 0.033831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.401661 seconds.
-  path: Assets/Sprites/Player - Din/din_jump_fall.png
-  artifactKey: Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_jump_fall.png using Guid(5578f333021c4eb40946db02a7a610a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d48880c636f3ada49647119831a0ce') in 0.013327 seconds
-  Import took 0.016945 seconds .
+  Time since last request: 5.078950 seconds.
+  path: Assets/Animations/Collectibles/Food/carrot.controller
+  artifactKey: Guid(d29a12a73f9d51443bb1b07b70bf11a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Collectibles/Food/carrot.controller using Guid(d29a12a73f9d51443bb1b07b70bf11a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6592b69bdecb6729ec3adfa24e69a2') in 0.009296 seconds
+  Import took 0.016342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.516584 seconds.
-  path: Assets/Sprites/Player - Din/din_hurt.png
-  artifactKey: Guid(3ed3f26ee8649074ab79a2d6a7316c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_hurt.png using Guid(3ed3f26ee8649074ab79a2d6a7316c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f56e81bc9ab9990dcb4617489ac3b8e') in 0.013015 seconds
-  Import took 0.016061 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001424 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.896 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 2.479200 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.988200 ms  DeleteObjects: 0.147200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001256 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 2.069400 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.689000 ms  DeleteObjects: 0.129400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000866 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 2.788600 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.309300 ms  DeleteObjects: 0.196600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 737.046664 seconds.
-  path: Assets/Sprites/Player - Din/din_run.png
-  artifactKey: Guid(2460ca5e68ad8b34e8a6e2e9c4e5eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_run.png using Guid(2460ca5e68ad8b34e8a6e2e9c4e5eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a9037fe5813ff42c6be520db5ba3f3') in 0.038191 seconds
-  Import took 0.042521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.041584 seconds.
-  path: Assets/Sprites/Player - Din/din_run.png
-  artifactKey: Guid(2460ca5e68ad8b34e8a6e2e9c4e5eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Din/din_run.png using Guid(2460ca5e68ad8b34e8a6e2e9c4e5eeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bc0a40bebd7b5ca9023213acf20bc2') in 0.038850 seconds
-  Import took 0.042624 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000924 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2285.
-Total: 3.001300 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.121800 ms MarkObjects: 2.282600 ms  DeleteObjects: 0.156300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.119729 seconds.
-  path: Assets/Sprites/Player - Don/don_bullet.png
-  artifactKey: Guid(547b95a18b855b4478fa5320ca80e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_bullet.png using Guid(547b95a18b855b4478fa5320ca80e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a6209d166b192c26893f980b5386db') in 0.053667 seconds
-  Import took 0.056684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Sprites/Player - Don/don_jump_fall.png
-  artifactKey: Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_jump_fall.png using Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83b6d9401e00f7e0d5b3ee33df8f5e7') in 0.009760 seconds
-  Import took 0.012793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Sprites/Player - Don/don_run.png
-  artifactKey: Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_run.png using Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e192dae3cabb193a6a8c6fbeee66219f') in 0.008411 seconds
-  Import took 0.011245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/Player - Don/don_shoot.png
-  artifactKey: Guid(a1f1122e2a4ee4a4f93abfce9f11e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_shoot.png using Guid(a1f1122e2a4ee4a4f93abfce9f11e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88113da67f7e86bfc458225883ad1066') in 0.007745 seconds
-  Import took 0.010862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Sprites/Player - Don/don_die.png
-  artifactKey: Guid(5617e523cf7d8754995fa56361408895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_die.png using Guid(5617e523cf7d8754995fa56361408895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b93804f8bd10e1000b6b94273c1843b') in 0.010073 seconds
-  Import took 0.013284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Sprites/Player - Don/don_hurt.png
-  artifactKey: Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_hurt.png using Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f3676649e3014bf35eb64464a7b1b') in 0.008536 seconds
-  Import took 0.011619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/Player - Don/don_idle.png
-  artifactKey: Guid(8fd8e07edcfec414794e0d0c511c8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_idle.png using Guid(8fd8e07edcfec414794e0d0c511c8279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d2bfe62f4244694eeb264fa63c0f53') in 0.008565 seconds
-  Import took 0.011293 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001297 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.9 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2296.
-Total: 3.033100 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.566900 ms  DeleteObjects: 0.157700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.930177 seconds.
-  path: Assets/Sprites/Player - Don/don_jump_fall.png
-  artifactKey: Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_jump_fall.png using Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fe8ddb575865343de4a3ed474dfaa7') in 0.033279 seconds
-  Import took 0.036660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.514346 seconds.
-  path: Assets/Sprites/Player - Don/don_jump_fall.png
-  artifactKey: Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_jump_fall.png using Guid(f51e808638a37404090aa89f74df4e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb8484a05c37b40e31cd22bbc3b8e7e') in 0.032277 seconds
-  Import took 0.036012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.576416 seconds.
-  path: Assets/Sprites/Player - Don/don_hurt.png
-  artifactKey: Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_hurt.png using Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c390e0811d5553af2e83f580001a7c') in 0.011511 seconds
-  Import took 0.017064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002177 seconds.
-  path: Assets/Sprites/Player - Don/don_hurt.png
-  artifactKey: Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_hurt.png using Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c390e0811d5553af2e83f580001a7c') in 0.010191 seconds
-  Import took 0.013904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.120641 seconds.
-  path: Assets/Sprites/Player - Don/don_hurt.png
-  artifactKey: Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_hurt.png using Guid(a416eb368595c804b8c091cec7a4150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119365b09cd02b08849e280109893f21') in 0.012310 seconds
-  Import took 0.015892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.636690 seconds.
-  path: Assets/Sprites/Player - Don/don_run.png
-  artifactKey: Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_run.png using Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00df064944a9d65ab0229eda5502087b') in 0.007182 seconds
-  Import took 0.010485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000735 seconds.
-  path: Assets/Sprites/Player - Don/don_run.png
-  artifactKey: Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_run.png using Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00df064944a9d65ab0229eda5502087b') in 0.007665 seconds
-  Import took 0.010656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.978736 seconds.
-  path: Assets/Sprites/Player - Don/don_run.png
-  artifactKey: Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player - Don/don_run.png using Guid(6a24cc4a222696543a66cc07beea3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ead7d24c84b340728dafc3a52d7e430') in 0.013788 seconds
-  Import took 0.017038 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001048 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
-Total: 2.549300 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.038100 ms  DeleteObjects: 0.183100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.950320 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-1.png
-  artifactKey: Guid(da48415efcb69194a929a2ede108f976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-1.png using Guid(da48415efcb69194a929a2ede108f976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f34f9f8ad95ab3f63263027dcc46f0') in 0.057712 seconds
-  Import took 0.062904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000523 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-4.png
-  artifactKey: Guid(d4564ed7bf2ba1747b48bc3c25c2014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-4.png using Guid(d4564ed7bf2ba1747b48bc3c25c2014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8e0639f9585529982ecf10386cd8ac') in 0.013802 seconds
-  Import took 0.018259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-3.png
-  artifactKey: Guid(5318044f46525794dae69c7c9bb1079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-3.png using Guid(5318044f46525794dae69c7c9bb1079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d099bf71cf731c47c03752ea1b080bd') in 0.011704 seconds
-  Import took 0.014617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-2.png
-  artifactKey: Guid(588fd9a1eafd0814085219da938f9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-2.png using Guid(588fd9a1eafd0814085219da938f9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e62bcda6f80e330fdbc0e2b9e1c5f1') in 0.011318 seconds
-  Import took 0.014259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.000568 seconds.
-  path: Assets/Animations/Collectibles
-  artifactKey: Guid(cddd522d603dbf7498fcde250aefa152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Collectibles using Guid(cddd522d603dbf7498fcde250aefa152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffd62472123253d5c89ad9747f64921') in 0.003442 seconds
-  Import took 0.007067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.158363 seconds.
-  path: Assets/Animations/Collectibles/Food
-  artifactKey: Guid(bd0908323d3e88a47adbd8d9f4dbc1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Collectibles/Food using Guid(bd0908323d3e88a47adbd8d9f4dbc1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8e275adbcd9ce56298009c3fd6092e') in 0.005274 seconds
-  Import took 0.011381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.112555 seconds.
+  Time since last request: 4.603755 seconds.
   path: Assets/Animations/Collectibles/Food/carrot.anim
   artifactKey: Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Collectibles/Food/carrot.anim using Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c81cd4f6b33cf601378c592812eb85') in 0.005470 seconds
-  Import took 0.008477 seconds .
+Start importing Assets/Animations/Collectibles/Food/carrot.anim using Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3182b625308f463a5a2598b046e7a0a') in 0.007191 seconds
+  Import took 0.014731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003130 seconds.
+  Time since last request: 0.010368 seconds.
   path: Assets/Animations/Collectibles/Food/carrot.anim
   artifactKey: Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Collectibles/Food/carrot.anim using Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c81cd4f6b33cf601378c592812eb85') in 0.003720 seconds
-  Import took 0.006766 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.491231 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot
-  artifactKey: Guid(7a59d4c019e6c89409b4de9beb8b73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot using Guid(7a59d4c019e6c89409b4de9beb8b73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08810744c935b95c19d12cd829986e2c') in 0.007507 seconds
-  Import took 0.013093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.361162 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-1.png
-  artifactKey: Guid(da48415efcb69194a929a2ede108f976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-1.png using Guid(da48415efcb69194a929a2ede108f976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ce12b904095ad9598ee54106669e83') in 0.010516 seconds
-  Import took 0.013965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.186062 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-2.png
-  artifactKey: Guid(588fd9a1eafd0814085219da938f9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-2.png using Guid(588fd9a1eafd0814085219da938f9b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f38b696552157a2cbd6f018db8092d2') in 0.009980 seconds
-  Import took 0.014224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.915240 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-3.png
-  artifactKey: Guid(5318044f46525794dae69c7c9bb1079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-3.png using Guid(5318044f46525794dae69c7c9bb1079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d2b20eeeac0e8821389db0249eba88') in 0.008353 seconds
-  Import took 0.011433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.069808 seconds.
-  path: Assets/Sprites/Collectibles/Food/Carrot/carrot-4.png
-  artifactKey: Guid(d4564ed7bf2ba1747b48bc3c25c2014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Carrot/carrot-4.png using Guid(d4564ed7bf2ba1747b48bc3c25c2014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bede68a835f54a5bdfe635c77d4157c6') in 0.009524 seconds
-  Import took 0.012821 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001053 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.761 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2308.
-Total: 2.466800 ms (FindLiveObjects: 0.440000 ms CreateObjectMapping: 0.173900 ms MarkObjects: 1.701800 ms  DeleteObjects: 0.149600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2312.
-Total: 2.441700 ms (FindLiveObjects: 0.224100 ms CreateObjectMapping: 0.059800 ms MarkObjects: 2.000000 ms  DeleteObjects: 0.156700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.573831 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-1.png
-  artifactKey: Guid(d0266209dfb811947bc4e6248595eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-1.png using Guid(d0266209dfb811947bc4e6248595eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd990736579a9385d44894a5eb9066261') in 0.051267 seconds
-  Import took 0.054566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-6.png
-  artifactKey: Guid(8a656c57340cbdb488ac2011d582e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-6.png using Guid(8a656c57340cbdb488ac2011d582e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477183e8a7a8478e4e0ad675f2853cf8') in 0.009424 seconds
-  Import took 0.012795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-2.png
-  artifactKey: Guid(4057231138a3140469744c7c4cf1ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-2.png using Guid(4057231138a3140469744c7c4cf1ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5384cc6e928697a37f7191db16b612') in 0.010343 seconds
-  Import took 0.015638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-3.png
-  artifactKey: Guid(5f3c467d88b7c1241af47cef40abe35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-3.png using Guid(5f3c467d88b7c1241af47cef40abe35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bc02b097b8d954fa91e0fd85479003') in 0.010189 seconds
-  Import took 0.014305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-4.png
-  artifactKey: Guid(c58b1a3eaa2c4744fa9bec93935b7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-4.png using Guid(c58b1a3eaa2c4744fa9bec93935b7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c70f4997ba50c042dea5cb780a7f2b') in 0.009952 seconds
-  Import took 0.013434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-7.png
-  artifactKey: Guid(94de7fff8f4c3a84bbca86704b141b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-7.png using Guid(94de7fff8f4c3a84bbca86704b141b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9acdff6897c2f7a3fc88109217c0412') in 0.009567 seconds
-  Import took 0.013451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-5.png
-  artifactKey: Guid(7417e71ccb349254982e55b15588f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-5.png using Guid(7417e71ccb349254982e55b15588f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e997c951996a75d9172027c34b38639a') in 0.009437 seconds
-  Import took 0.013041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.558735 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-1.png
-  artifactKey: Guid(d0266209dfb811947bc4e6248595eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-1.png using Guid(d0266209dfb811947bc4e6248595eb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615f74cdaa7ccbb866fd0a7486d144e') in 0.010041 seconds
-  Import took 0.013366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.926190 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-2.png
-  artifactKey: Guid(4057231138a3140469744c7c4cf1ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-2.png using Guid(4057231138a3140469744c7c4cf1ba1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6bf318902578cd6200b5154a1b3c12') in 0.009442 seconds
-  Import took 0.012595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.431989 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-3.png
-  artifactKey: Guid(5f3c467d88b7c1241af47cef40abe35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-3.png using Guid(5f3c467d88b7c1241af47cef40abe35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f029933b14d02eda684f760574dd0c34') in 0.010859 seconds
-  Import took 0.014268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.777933 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-4.png
-  artifactKey: Guid(c58b1a3eaa2c4744fa9bec93935b7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-4.png using Guid(c58b1a3eaa2c4744fa9bec93935b7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9719fe0869541b3da1e5804d7abb90a') in 0.009174 seconds
-  Import took 0.012472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.196183 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-5.png
-  artifactKey: Guid(7417e71ccb349254982e55b15588f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-5.png using Guid(7417e71ccb349254982e55b15588f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8def12a6d3b16cac9590fe5c8614a9') in 0.009156 seconds
-  Import took 0.013006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.831356 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-6.png
-  artifactKey: Guid(8a656c57340cbdb488ac2011d582e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-6.png using Guid(8a656c57340cbdb488ac2011d582e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003f86721a334a455285bca20406518a') in 0.008631 seconds
-  Import took 0.011845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.591428 seconds.
-  path: Assets/Sprites/Collectibles/Food/Cherry/cherry-7.png
-  artifactKey: Guid(94de7fff8f4c3a84bbca86704b141b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Collectibles/Food/Cherry/cherry-7.png using Guid(94de7fff8f4c3a84bbca86704b141b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3ef2eda70fc1a3f347ecb28878236e') in 0.011140 seconds
-  Import took 0.015009 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000882 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.866 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.0 MB.
-System memory in use after: 88.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 2.600500 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.055500 ms MarkObjects: 2.208300 ms  DeleteObjects: 0.160000 ms)
+Start importing Assets/Animations/Collectibles/Food/carrot.anim using Guid(b893b3a3fa16e6b47b0b5d2dc9780e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3182b625308f463a5a2598b046e7a0a') in 0.004158 seconds
+  Import took 0.011847 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
