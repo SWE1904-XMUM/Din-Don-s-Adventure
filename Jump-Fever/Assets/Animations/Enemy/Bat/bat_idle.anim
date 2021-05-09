@@ -18,7 +18,11 @@ AnimationClip:
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
+<<<<<<< HEAD
   m_SampleRate: 60
+=======
+  m_SampleRate: 10
+>>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
