@@ -1,21 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!1102 &-3990788060022412003
-=======
---- !u!1102 &-8711336081890073067
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
+--- !u!1102 &-6610116355006046496
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: rock_hit
-=======
-  m_Name: rock1_idle
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
+  m_Name: run
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -28,21 +20,48 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<< HEAD
-  m_Motion: {fileID: 7400000, guid: f2528fe9a0b70c0489237fa7e52da621, type: 2}
+  m_Motion: {fileID: 7400000, guid: 29ee2dc41963a9d4e8d3e482c4c6187e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-1779438731443173734
+--- !u!1107 &-5544986185002724110
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base Layer
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: -1251800936182609932}
+    m_Position: {x: 200, y: 0, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 1488673579557756185}
+    m_Position: {x: 235, y: 65, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6610116355006046496}
+    m_Position: {x: 270, y: 130, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: -1251800936182609932}
+--- !u!1102 &-1251800936182609932
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: rock_run
+  m_Name: die
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -55,10 +74,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 00d498e39aa63904fb5dd50a8a0db8ee, type: 2}
-=======
-  m_Motion: {fileID: 7400000, guid: 067b74703ae6e7747b70ba173ae82343, type: 2}
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
+  m_Motion: {fileID: 7400000, guid: 14b71d79278d6494eb9cac042fb51beb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -76,11 +92,7 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-<<<<<<< HEAD
-    m_StateMachine: {fileID: 2100320321067629654}
-=======
-    m_StateMachine: {fileID: 4433044980162356216}
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
+    m_StateMachine: {fileID: -5544986185002724110}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -90,60 +102,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
-<<<<<<< HEAD
---- !u!1107 &2100320321067629654
-=======
---- !u!1107 &4433044980162356216
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
-AnimatorStateMachine:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
-  m_ChildStates:
-  - serializedVersion: 1
-<<<<<<< HEAD
-    m_State: {fileID: 7407210379711921240}
-    m_Position: {x: 200, y: 0, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -1779438731443173734}
-    m_Position: {x: 235, y: 65, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3990788060022412003}
-=======
-    m_State: {fileID: -8711336081890073067}
-    m_Position: {x: 200, y: 0, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 6056389276775296006}
-    m_Position: {x: 235, y: 65, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5300304053333714517}
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
-    m_Position: {x: 270, y: 130, z: 0}
-  m_ChildStateMachines: []
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-<<<<<<< HEAD
-  m_DefaultState: {fileID: 7407210379711921240}
---- !u!1102 &7407210379711921240
-=======
-  m_DefaultState: {fileID: -8711336081890073067}
---- !u!1102 &5300304053333714517
+--- !u!1102 &1488673579557756185
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: rock1_hit
+  m_Name: idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -156,42 +122,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a5dbd555555e63241a3a84c821b0e1b6, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &6056389276775296006
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: rock_idle
-=======
-  m_Name: rock1_run
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-<<<<<<< HEAD
-  m_Motion: {fileID: 7400000, guid: 9215a859cec20594eb84c26dc239d5f3, type: 2}
-=======
-  m_Motion: {fileID: 7400000, guid: 652c0a31b2537a5409a8e8155222bc58, type: 2}
->>>>>>> 2c444cef65c0ef393a25c536f4f99370011f69c9
+  m_Motion: {fileID: 7400000, guid: e68f595fb299bf944bbe4a09bae3f6aa, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
