@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637563052009355456
-    m_Hash: 918907895
+      ticks: 637563066156041009
+    m_Hash: 166354499
   m_LockFileStatus:
     m_FilePath: D:/git/Din-Don-s-Adventure/Jump-Fever/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637563052009734451
-    m_Hash: 1932401740
+      ticks: 637563066156042920
+    m_Hash: 2423917391
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
