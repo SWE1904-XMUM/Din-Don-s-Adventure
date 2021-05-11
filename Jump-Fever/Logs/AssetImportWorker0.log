@@ -15,598 +15,138 @@ D:/git/Din-Don-s-Adventure/Jump-Fever
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54630
+54947
 Successfully changed project path to: D:/git/Din-Don-s-Adventure/Jump-Fever
 D:/git/Din-Don-s-Adventure/Jump-Fever
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 94.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/git/Din-Don-s-Adventure/Jump-Fever/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     2010 MB
-    Driver:   27.21.14.5167
+    VRAM:     6085 MB
+    Driver:   27.20.100.8477
 Initialize mono
 Mono path[0] = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/ASUS/Desktop/Unity - Game Development/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003910 seconds.
+Registered in 0.003884 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 92.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.533 seconds
+- Completed reload, in  2.012 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001469 seconds.
+Registered in 0.000874 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.98 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 85.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.286 seconds
+- Completed reload, in  1.872 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1956 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
+Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2400.
-Total: 4.168300 ms (FindLiveObjects: 0.683100 ms CreateObjectMapping: 0.155100 ms MarkObjects: 3.127900 ms  DeleteObjects: 0.199800 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 2.352600 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.064500 ms MarkObjects: 1.954200 ms  DeleteObjects: 0.135800 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Prefabs/Player/Player.prefab
   artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd95d0b7b658548e7f6e19b20f6f91ad') in 0.136346 seconds
-  Import took 0.143299 seconds .
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4e29d01cefa193a66bc508b70b595') in 0.100460 seconds
+  Import took 0.106879 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.842407 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(19d1cb760f7c40f4394bf786b4b45e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(19d1cb760f7c40f4394bf786b4b45e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af74d0a2ccda3ea7308ef8f30a5308') in 0.017617 seconds
-  Import took 0.026210 seconds .
+  Time since last request: 1.319489 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf80682cc2a2deb619e79ab579498ce') in 0.004560 seconds
+  Import took 0.010397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003222 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(19d1cb760f7c40f4394bf786b4b45e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(19d1cb760f7c40f4394bf786b4b45e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85af74d0a2ccda3ea7308ef8f30a5308') in 0.003116 seconds
-  Import took 0.012562 seconds .
+  Time since last request: 1.298975 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ad0a02524ff80911f1d0170cc0fd2e') in 0.004062 seconds
+  Import took 0.008086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.344522 seconds.
-  path: Assets/Scripts/New Folder
-  artifactKey: Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/New Folder using Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e2de6cb4218b4d5f5749cf9bdc69bf') in 0.011343 seconds
-  Import took 0.017110 seconds .
+  Time since last request: 2.836940 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fbafa4fad0ddb55ca4734d7f13a7624') in 0.004046 seconds
+  Import took 0.008992 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.039638 seconds.
-  path: Assets/Scripts/New Folder
-  artifactKey: Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/New Folder using Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e2de6cb4218b4d5f5749cf9bdc69bf') in 0.002250 seconds
-  Import took 0.010862 seconds .
+  Time since last request: 35.508518 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21d50891119e793e4fcebafe02c020b') in 0.005097 seconds
+  Import took 0.010656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010849 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21d50891119e793e4fcebafe02c020b') in 0.004214 seconds
+  Import took 0.009413 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001576 seconds.
+Registered in 0.000866 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.990 seconds
+- Completed reload, in  1.132 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1948 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2404.
-Total: 3.589700 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.139700 ms MarkObjects: 3.006500 ms  DeleteObjects: 0.143000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.202169 seconds.
-  path: Assets/Scripts/Player
-  artifactKey: Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player using Guid(ecaba845a0762514c9cf286e75487b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b9f11ebd0d5cf16c755cb0c09918a0') in 0.007073 seconds
-  Import took 0.012670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.852075 seconds.
-  path: Assets/Scripts/PlayerRun.cs
-  artifactKey: Guid(87f845025b55c8f4ca946d8c977d343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerRun.cs using Guid(87f845025b55c8f4ca946d8c977d343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1a92bb4b60a786682ba7cd98628d2') in 0.016698 seconds
-  Import took 0.022289 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001467 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1949 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.0 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 4.968000 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.180900 ms MarkObjects: 4.176900 ms  DeleteObjects: 0.265100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.320829 seconds.
-  path: Assets/Scripts/PlayerJump.cs
-  artifactKey: Guid(9e070652081585243b70307a2fc16548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerJump.cs using Guid(9e070652081585243b70307a2fc16548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6dda390e21ad4f3beecf1171f2c0b') in 0.014394 seconds
-  Import took 0.020001 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001336 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.030 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 4.447100 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.175000 ms MarkObjects: 3.349300 ms  DeleteObjects: 0.140800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.309588 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6855f244f5125e980d5d35380b57ce81') in 0.007521 seconds
-  Import took 0.015205 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001124 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.922 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 4.364900 ms (FindLiveObjects: 0.406700 ms CreateObjectMapping: 0.180300 ms MarkObjects: 3.497800 ms  DeleteObjects: 0.277900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002248 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.848 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2422.
-Total: 3.367300 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.900100 ms  DeleteObjects: 0.125500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.427518 seconds.
-  path: Assets/Scripts/Player/PlayerRun.cs
-  artifactKey: Guid(87f845025b55c8f4ca946d8c977d343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerRun.cs using Guid(87f845025b55c8f4ca946d8c977d343f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d72e3d015931782bee51d28eb616903') in 0.007368 seconds
-  Import took 0.013247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.761114 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2e138721428fe5d4257e9c01b5d99') in 0.003470 seconds
-  Import took 0.011791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001378 seconds.
-  path: Assets/Scripts/Player/Player.cs
-  artifactKey: Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Player.cs using Guid(dac9cfff1ebe6754f80435c3e48638b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b2e138721428fe5d4257e9c01b5d99') in 0.003344 seconds
-  Import took 0.012318 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001248 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2426.
-Total: 3.913900 ms (FindLiveObjects: 0.651100 ms CreateObjectMapping: 0.136200 ms MarkObjects: 2.961000 ms  DeleteObjects: 0.164000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001280 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.331 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 3.123200 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.109200 ms MarkObjects: 2.634900 ms  DeleteObjects: 0.115800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001300 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.397 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2434.
-Total: 3.546900 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.119800 ms MarkObjects: 2.984400 ms  DeleteObjects: 0.138600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001227 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.410 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2438.
-Total: 3.564700 ms (FindLiveObjects: 0.563700 ms CreateObjectMapping: 0.131500 ms MarkObjects: 2.727300 ms  DeleteObjects: 0.140600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001563 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.972 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 4.484100 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.171300 ms MarkObjects: 3.777500 ms  DeleteObjects: 0.162800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.646503 seconds.
-  path: Assets/Scripts/Player/PlayerShoot.cs
-  artifactKey: Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerShoot.cs using Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7329728b5a8b94d97f3c08e722b3d4d') in 0.024925 seconds
-  Import took 0.036104 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001266 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.888 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 90.2 MB.
 System memory in use after: 90.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2447.
-Total: 4.255100 ms (FindLiveObjects: 0.639200 ms CreateObjectMapping: 0.262800 ms MarkObjects: 3.178900 ms  DeleteObjects: 0.156900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2416.
+Total: 3.509400 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.975600 ms  DeleteObjects: 0.130900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001830 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.845 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2451.
-Total: 4.425100 ms (FindLiveObjects: 0.396500 ms CreateObjectMapping: 0.285400 ms MarkObjects: 3.570500 ms  DeleteObjects: 0.170200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.976176 seconds.
-  path: Assets/Scripts/Player/PlayerShoot.cs
-  artifactKey: Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerShoot.cs using Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaf43e09a6c0ac59e815bddbd04c686') in 0.008349 seconds
-  Import took 0.016229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.432050 seconds.
-  path: Assets/Scripts/Bullet.cs
-  artifactKey: Guid(d95c8e33750e897409b917615db5de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Bullet.cs using Guid(d95c8e33750e897409b917615db5de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c524ff5292b66eb7e5cf956d6939c8') in 0.013734 seconds
-  Import took 0.020685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.930048 seconds.
-  path: Assets/Prefabs/Collectibles/BigHeart.prefab
-  artifactKey: Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Collectibles/BigHeart.prefab using Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9acbbb2bcc0d52aa0b8deb9660fd6d') in 0.226982 seconds
-  Import took 0.234362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Prefabs/Collectibles/Coin.prefab
-  artifactKey: Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Collectibles/Coin.prefab using Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2413b38de60682dc31210cc7020e575f') in 0.051595 seconds
-  Import took 0.058512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.147777 seconds.
-  path: Assets/Prefabs/Enemy/TrunkBullet.prefab
-  artifactKey: Guid(00c1d9380b51b3c48bfbc307622e6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/TrunkBullet.prefab using Guid(00c1d9380b51b3c48bfbc307622e6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53111cf07f93d68d5c9af1e81d9f9b8a') in 0.054194 seconds
-  Import took 0.062410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007910 seconds.
-  path: Assets/Prefabs/Enemy/TrunkBullet.prefab
-  artifactKey: Guid(00c1d9380b51b3c48bfbc307622e6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/TrunkBullet.prefab using Guid(00c1d9380b51b3c48bfbc307622e6452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53111cf07f93d68d5c9af1e81d9f9b8a') in 0.011956 seconds
-  Import took 0.019183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.895062 seconds.
-  path: Assets/Prefabs/Collectibles/BigHeart.prefab
-  artifactKey: Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Collectibles/BigHeart.prefab using Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa0b144890ebc5260249a26dcdc75e0') in 0.041666 seconds
-  Import took 0.050991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.239199 seconds.
-  path: Assets/Prefabs/Collectibles/Coin.prefab
-  artifactKey: Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Collectibles/Coin.prefab using Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2edf865f5c1d002628fc7935986038a') in 0.027005 seconds
-  Import took 0.037011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.967278 seconds.
-  path: Assets/Prefabs/Enemy/Bat.prefab
-  artifactKey: Guid(7a9af5c1b9a297f468f1cfd0302bdab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Bat.prefab using Guid(7a9af5c1b9a297f468f1cfd0302bdab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ca2a5e0cf8f8ec36d613b3924a00bc') in 0.051360 seconds
-  Import took 0.057954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/Prefabs/Enemy/Golem.prefab
-  artifactKey: Guid(932e75803e2d7424aa8bef4129454d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Golem.prefab using Guid(932e75803e2d7424aa8bef4129454d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0280b7d5bbba2494c88f8d02ef56603') in 0.089318 seconds
-  Import took 0.096521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Prefabs/Enemy/Golem_Arm.prefab
-  artifactKey: Guid(fe4ec16d7a6867e47b44ca983a76c8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Golem_Arm.prefab using Guid(fe4ec16d7a6867e47b44ca983a76c8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0218401f5a69b3cc877408fc7c45562f') in 0.040359 seconds
-  Import took 0.047863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Prefabs/Enemy/Rock.prefab
-  artifactKey: Guid(b329c4bae7e5853448c35364d8c7718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Rock.prefab using Guid(b329c4bae7e5853448c35364d8c7718e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec8d7c7d70bd28f97900142bda1742f') in 0.040452 seconds
-  Import took 0.047120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Prefabs/Enemy/Ghost.prefab
-  artifactKey: Guid(52f478e8f2db1b8499aade3ec7bf3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Ghost.prefab using Guid(52f478e8f2db1b8499aade3ec7bf3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a0d74dd3f9cac84e30d16bf66fed58') in 0.034660 seconds
-  Import took 0.042119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/Prefabs/Enemy/Trunk.prefab
-  artifactKey: Guid(b718b44d1e748e348b2b4e002ab7145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Trunk.prefab using Guid(b718b44d1e748e348b2b4e002ab7145c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b253703652246a21ba35bc9c183b47f') in 0.036673 seconds
-  Import took 0.043604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Prefabs/Enemy/Ghost.prefab
-  artifactKey: Guid(52f478e8f2db1b8499aade3ec7bf3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Ghost.prefab using Guid(52f478e8f2db1b8499aade3ec7bf3221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a0d74dd3f9cac84e30d16bf66fed58') in 0.017483 seconds
-  Import took 0.024687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Prefabs/Enemy/Golem_Laser.prefab
-  artifactKey: Guid(d24be990a6907ae40b3adef15b0e4b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy/Golem_Laser.prefab using Guid(d24be990a6907ae40b3adef15b0e4b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ad47572e6e608a9bcbee1731beb657') in 0.049883 seconds
-  Import took 0.055896 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001925 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2463.
-Total: 4.699900 ms (FindLiveObjects: 0.264800 ms CreateObjectMapping: 0.125200 ms MarkObjects: 4.113300 ms  DeleteObjects: 0.194800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002084 seconds.
+Registered in 0.002583 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
@@ -615,391 +155,985 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.042 seconds
+- Completed reload, in  2.025 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.3 MB.
+System memory in use after: 90.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2467.
-Total: 4.067800 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.210900 ms MarkObjects: 3.354700 ms  DeleteObjects: 0.158500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001146 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.807 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2471.
-Total: 3.415900 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.781400 ms  DeleteObjects: 0.210000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001391 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.079 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2475.
-Total: 3.756400 ms (FindLiveObjects: 0.324300 ms CreateObjectMapping: 0.115100 ms MarkObjects: 3.198300 ms  DeleteObjects: 0.117000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 5.393900 ms (FindLiveObjects: 0.855200 ms CreateObjectMapping: 0.428400 ms MarkObjects: 3.970400 ms  DeleteObjects: 0.137700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 141.130245 seconds.
-  path: Assets/Scripts/Player/PlayerShoot.cs
-  artifactKey: Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerShoot.cs using Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f281806a74bfb4d69d22f643976352') in 0.008703 seconds
-  Import took 0.014953 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001930 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.002 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2478.
-Total: 3.874800 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.136300 ms MarkObjects: 3.279900 ms  DeleteObjects: 0.148600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001144 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.970 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2483.
-Total: 6.158000 ms (FindLiveObjects: 0.367900 ms CreateObjectMapping: 0.157400 ms MarkObjects: 5.152800 ms  DeleteObjects: 0.476700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001954 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.849 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2487.
-Total: 3.684900 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.150900 ms MarkObjects: 3.056100 ms  DeleteObjects: 0.152700 ms)
+  Time since last request: 137.071210 seconds.
+  path: Assets/Sprites/Player - Din/din_bullet 1.png
+  artifactKey: Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Din/din_bullet 1.png using Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b539cb63277f9de18fc984b9254ff8') in 0.332424 seconds
+  Import took 0.338618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 142.916321 seconds.
-  path: Assets/Scripts/Player/PlayerShoot.cs
-  artifactKey: Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerShoot.cs using Guid(1f9e2cfe0d02fbe48b88cfdca618cb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a77818725fe431dae2fcd343cf3be') in 0.007416 seconds
-  Import took 0.014564 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.870 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.4 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2491.
-Total: 3.610700 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.216300 ms MarkObjects: 2.821300 ms  DeleteObjects: 0.157000 ms)
+  Time since last request: 14.450582 seconds.
+  path: Assets/Sprites/Player - Din/din_bullet 1.png
+  artifactKey: Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Din/din_bullet 1.png using Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5703bd2b150d7fcf1fe7e5f7b3a52047') in 0.015902 seconds
+  Import took 0.021912 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 192.039178 seconds.
-  path: Assets/Prefabs/Player/Din_bullet.prefab
-  artifactKey: Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player/Din_bullet.prefab using Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549f817f440dca6d1fb32a1584ab1baf') in 0.139077 seconds
-  Import took 0.146244 seconds .
+  Time since last request: 0.004645 seconds.
+  path: Assets/Sprites/Player - Din/din_bullet 1.png
+  artifactKey: Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Din/din_bullet 1.png using Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5703bd2b150d7fcf1fe7e5f7b3a52047') in 0.006501 seconds
+  Import took 0.011654 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.175510 seconds.
-  path: Assets/Prefabs/Player/Don_bullet.prefab
-  artifactKey: Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player/Don_bullet.prefab using Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d36b65629fef47ade7665f2562cd806') in 0.022023 seconds
-  Import took 0.030116 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001552 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.251 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2496.
-Total: 5.441800 ms (FindLiveObjects: 0.774300 ms CreateObjectMapping: 0.137000 ms MarkObjects: 4.324200 ms  DeleteObjects: 0.204000 ms)
+  Time since last request: 10.602921 seconds.
+  path: Assets/Sprites/Player - Din/din_bullet 1.png
+  artifactKey: Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Din/din_bullet 1.png using Guid(31fd17d0b9e49cd4ca66a75b6c1fbcc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d9a5aa0b5332f3a5e9ab680a9d1265') in 0.027824 seconds
+  Import took 0.034492 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.543804 seconds.
-  path: Assets/Scripts/Player/PlayerHurt.cs
-  artifactKey: Guid(620cade0cdefd534c91cd9758941ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerHurt.cs using Guid(620cade0cdefd534c91cd9758941ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a11775c6357390a2dfe1da2cc0d4db3') in 0.014987 seconds
-  Import took 0.022224 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001138 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.751 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2501.
-Total: 3.550600 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.137400 ms MarkObjects: 2.944200 ms  DeleteObjects: 0.163400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002025 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2505.
-Total: 4.099200 ms (FindLiveObjects: 0.395200 ms CreateObjectMapping: 0.169200 ms MarkObjects: 3.372900 ms  DeleteObjects: 0.158400 ms)
+  Time since last request: 6.189751 seconds.
+  path: Assets/Sprites/Player - Don/don_bullet 1.png
+  artifactKey: Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Don/don_bullet 1.png using Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6679569b877d8ae7fd059e23f6019e') in 0.016168 seconds
+  Import took 0.020508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.807249 seconds.
-  path: Assets/Scripts/Player/PlayerHurt.cs
-  artifactKey: Guid(620cade0cdefd534c91cd9758941ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/PlayerHurt.cs using Guid(620cade0cdefd534c91cd9758941ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc332716543258f6c501c89b8996c75') in 0.007613 seconds
-  Import took 0.014777 seconds .
+  Time since last request: 14.149486 seconds.
+  path: Assets/Sprites/Player - Don/don_bullet 1.png
+  artifactKey: Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Don/don_bullet 1.png using Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f97c9b54f86b14ebec1dc165266b2') in 0.017984 seconds
+  Import took 0.024685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007244 seconds.
+  path: Assets/Sprites/Player - Don/don_bullet 1.png
+  artifactKey: Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Don/don_bullet 1.png using Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f97c9b54f86b14ebec1dc165266b2') in 0.005748 seconds
+  Import took 0.011950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.193956 seconds.
+  path: Assets/Sprites/Player - Don/don_bullet 1.png
+  artifactKey: Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Player - Don/don_bullet 1.png using Guid(b493297b48586d34c83b8db0f60076a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92924a52c4aa174e26459442bd7c9c6') in 0.031129 seconds
+  Import took 0.037680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.748285 seconds.
+  path: Assets/Animations/Player/Din/din_slimeBullet.anim
+  artifactKey: Guid(bc76e7cedae98fe429a5b34bb5766491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Din/din_slimeBullet.anim using Guid(bc76e7cedae98fe429a5b34bb5766491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76d4ed9dc60b2ab010fae35e1e7defa') in 0.014527 seconds
+  Import took 0.019158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.739899 seconds.
+  path: Assets/Animations/Player/Don/don_slimeBullet.anim
+  artifactKey: Guid(8230fa6f8785f014b9d444dcd809b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Don/don_slimeBullet.anim using Guid(8230fa6f8785f014b9d444dcd809b3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aefd647c9587d4b9f41c6626115c761') in 0.011087 seconds
+  Import took 0.017280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.835150 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'ced70bf8bc7250e0003ec7d0a5370203') in 0.054891 seconds
+  Import took 0.061834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003011 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'ced70bf8bc7250e0003ec7d0a5370203') in 0.009852 seconds
+  Import took 0.015528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124404 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '9dab4252e404e0f6333d9ca1127237bf') in 0.021893 seconds
+  Import took 0.028188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004947 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '9dab4252e404e0f6333d9ca1127237bf') in 0.010111 seconds
+  Import took 0.015267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.198840 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9806939ca49bb7dfd1da835dcfe447') in 0.030257 seconds
+  Import took 0.035846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025101 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9806939ca49bb7dfd1da835dcfe447') in 0.012771 seconds
+  Import took 0.017038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.659211 seconds.
+  path: Assets/Prefabs/Player/Player.prefab
+  artifactKey: Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Player.prefab using Guid(1d767db97a0f5e54eb0ff98fe4d629e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70919bc6fa35cd4a51af57718d180e8d') in 0.004980 seconds
+  Import took 0.011004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.010481 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '659394a0434f95ecacf98998a69c8d96') in 0.011810 seconds
+  Import took 0.017288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.202158 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '4c6b2691a46d564a9526e925bc260dc6') in 0.011230 seconds
+  Import took 0.017029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.046215 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '5f2089a2d8edf2d6bbd78c654270b1c1') in 0.010367 seconds
+  Import took 0.015512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.061352 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'd1b9e217c7861bcf22fd50c8b5074c06') in 0.009213 seconds
+  Import took 0.014431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.935130 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2b145a047805917ca8a54199b49013de') in 0.010683 seconds
+  Import took 0.015646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015613 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2b145a047805917ca8a54199b49013de') in 0.011296 seconds
+  Import took 0.015998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '687cea9e4fd82fcfc704aacebfb16777') in 0.010928 seconds
+  Import took 0.017489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006421 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '687cea9e4fd82fcfc704aacebfb16777') in 0.009737 seconds
+  Import took 0.014947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.264317 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '81b1f26392fa9d3b04856ee029b025e0') in 0.011706 seconds
+  Import took 0.017758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014045 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '81b1f26392fa9d3b04856ee029b025e0') in 0.009968 seconds
+  Import took 0.015536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '3351d4d618365c651fc48ba86caae7d2') in 0.011091 seconds
+  Import took 0.017130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008633 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '3351d4d618365c651fc48ba86caae7d2') in 0.010619 seconds
+  Import took 0.015470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.829295 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '14c89d6fe6e5306e502bb92055b1c519') in 0.010394 seconds
+  Import took 0.016344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020877 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '14c89d6fe6e5306e502bb92055b1c519') in 0.011010 seconds
+  Import took 0.016364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '73ba16464ad411db88a96df033725f64') in 0.008989 seconds
+  Import took 0.013846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186402 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '3e9d0e1d6bb151477a53d01603cbce1c') in 0.009439 seconds
+  Import took 0.014161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017262 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '3e9d0e1d6bb151477a53d01603cbce1c') in 0.009858 seconds
+  Import took 0.014239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '9ebf0aa8432d137fe7adcf2397bd8c38') in 0.009349 seconds
+  Import took 0.013404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013532 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '9ebf0aa8432d137fe7adcf2397bd8c38') in 0.009995 seconds
+  Import took 0.014638 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001342 seconds.
+Registered in 0.000956 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.762 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2508.
-Total: 3.882900 ms (FindLiveObjects: 0.330200 ms CreateObjectMapping: 0.163300 ms MarkObjects: 3.227800 ms  DeleteObjects: 0.159600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001394 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2512.
-Total: 3.668500 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.177700 ms MarkObjects: 2.921100 ms  DeleteObjects: 0.162700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002253 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.108 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1952 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 3.672000 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.114800 ms MarkObjects: 3.056600 ms  DeleteObjects: 0.186800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001141 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.731 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2521.
-Total: 3.492300 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.141400 ms MarkObjects: 2.870500 ms  DeleteObjects: 0.155300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001478 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.836 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
 System memory in use after: 93.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2525.
-Total: 4.752100 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.172000 ms MarkObjects: 4.061100 ms  DeleteObjects: 0.163000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2436.
+Total: 2.571400 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.083600 ms MarkObjects: 2.156000 ms  DeleteObjects: 0.116200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.273507 seconds.
+  path: Assets/Animations/Player/Din/Din_SlimeBullet.controller
+  artifactKey: Guid(82fefd71c196dbb499ddabd56c8d7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Din/Din_SlimeBullet.controller using Guid(82fefd71c196dbb499ddabd56c8d7168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5936d269af2b4871008ad9d24f8b134e') in 0.016026 seconds
+  Import took 0.019869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.595025 seconds.
+  path: Assets/Animations/Player/Don/Don_SlimeBullet.controller
+  artifactKey: Guid(1f2c1a5711582874fb9a46b826a3ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Don/Don_SlimeBullet.controller using Guid(1f2c1a5711582874fb9a46b826a3ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51695a1f5e2ea775a136bc7d303945cd') in 0.003787 seconds
+  Import took 0.010042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036682 seconds.
+  path: Assets/Animations/Player/Don/Don_SlimeBullet.controller
+  artifactKey: Guid(1f2c1a5711582874fb9a46b826a3ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Don/Don_SlimeBullet.controller using Guid(1f2c1a5711582874fb9a46b826a3ff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51695a1f5e2ea775a136bc7d303945cd') in 0.004112 seconds
+  Import took 0.012375 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001560 seconds.
+Registered in 0.000880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2440.
+Total: 3.325700 ms (FindLiveObjects: 0.315300 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.761700 ms  DeleteObjects: 0.126400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2445.
+Total: 2.266400 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.086200 ms MarkObjects: 1.865800 ms  DeleteObjects: 0.113500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.023413 seconds.
+  path: Assets/Scripts/Collectable/SlimeBulletController.cs
+  artifactKey: Guid(274b71b9e813fbb4fb1da208c1f8283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/SlimeBulletController.cs using Guid(274b71b9e813fbb4fb1da208c1f8283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec167f5ba9ff32efc0bd5662b72e6a17') in 0.010716 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000977 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
@@ -1008,91 +1142,44 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.826 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.6 MB.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 3.844500 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.158400 ms MarkObjects: 3.182200 ms  DeleteObjects: 0.152000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 184.738784 seconds.
-  path: Assets/Scripts/Ot.cs
-  artifactKey: Guid(273f785abde179641b5a0301466c49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Ot.cs using Guid(273f785abde179641b5a0301466c49db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef014a4e4e1e8d5e1245b7188e23f28d') in 0.014853 seconds
-  Import took 0.021477 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2449.
+Total: 4.555100 ms (FindLiveObjects: 0.630400 ms CreateObjectMapping: 0.232300 ms MarkObjects: 3.445000 ms  DeleteObjects: 0.244600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001131 seconds.
+Registered in 0.001378 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.776 seconds
+- Completed reload, in  1.558 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.6 MB.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2533.
-Total: 3.366800 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.217000 ms MarkObjects: 2.640300 ms  DeleteObjects: 0.116500 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2453.
+Total: 4.798600 ms (FindLiveObjects: 0.472000 ms CreateObjectMapping: 0.210800 ms MarkObjects: 3.863500 ms  DeleteObjects: 0.249900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001560 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.808 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2537.
-Total: 4.819800 ms (FindLiveObjects: 0.365000 ms CreateObjectMapping: 0.250100 ms MarkObjects: 4.030100 ms  DeleteObjects: 0.172300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.497398 seconds.
-  path: Assets/Scripts/Others
-  artifactKey: Guid(188cd5c5ea26f8742a56b14f15b27d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Others using Guid(188cd5c5ea26f8742a56b14f15b27d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114aa21c809477abf21c63b9643f31b8') in 0.017327 seconds
-  Import took 0.024245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.470312 seconds.
-  path: Assets/Scripts/Attack
-  artifactKey: Guid(06e5b275d64814244a42b5b37d8cb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Attack using Guid(06e5b275d64814244a42b5b37d8cb8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644e9376df0cfc65dc3fbbd7ae4affd9') in 0.012872 seconds
-  Import took 0.020657 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001540 seconds.
+Registered in 0.000996 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
@@ -1101,54 +1188,1028 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.856 seconds
+- Completed reload, in  1.565 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1953 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.6 MB.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2541.
-Total: 3.532900 ms (FindLiveObjects: 0.322600 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.879600 ms  DeleteObjects: 0.173000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.818931 seconds.
-  path: Assets/Scripts/Attack/Bullet.cs
-  artifactKey: Guid(d95c8e33750e897409b917615db5de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Attack/Bullet.cs using Guid(d95c8e33750e897409b917615db5de82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285962101dcfc81ed5f37fa2c226c1ca') in 0.006300 seconds
-  Import took 0.011866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.447866 seconds.
-  path: Assets/Scripts/Attack/Laser.cs
-  artifactKey: Guid(bc730b7c0bc5c314e83d04c4e31d5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Attack/Laser.cs using Guid(bc730b7c0bc5c314e83d04c4e31d5577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a611bc83ba2fd79ae637b68df7408e0') in 0.012536 seconds
-  Import took 0.019434 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2457.
+Total: 2.848900 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.434100 ms  DeleteObjects: 0.158400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001182 seconds.
+Registered in 0.000934 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.852 seconds
+- Completed reload, in  0.948 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1954 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.6 MB.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2546.
-Total: 3.615000 ms (FindLiveObjects: 0.324300 ms CreateObjectMapping: 0.144900 ms MarkObjects: 2.991700 ms  DeleteObjects: 0.152000 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 2.787000 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.354100 ms  DeleteObjects: 0.095500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001545 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.557 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2465.
+Total: 2.605500 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.063200 ms MarkObjects: 2.190700 ms  DeleteObjects: 0.153700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 637.289491 seconds.
+  path: Assets/Prefabs/Player/Din_bullet.prefab
+  artifactKey: Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Din_bullet.prefab using Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee9eda07b1c87f7e7aa641fe8cce4f0') in 0.038741 seconds
+  Import took 0.045289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.154407 seconds.
+  path: Assets/Prefabs/Player/Don_bullet.prefab
+  artifactKey: Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Don_bullet.prefab using Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d244876ee6bc3671d0dd3b54c905fe') in 0.005499 seconds
+  Import took 0.012394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020114 seconds.
+  path: Assets/Prefabs/Player/Don_bullet.prefab
+  artifactKey: Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Don_bullet.prefab using Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d244876ee6bc3671d0dd3b54c905fe') in 0.003534 seconds
+  Import took 0.007614 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2469.
+Total: 2.616500 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.128400 ms  DeleteObjects: 0.131200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.523959 seconds.
+  path: Assets/Prefabs/Player/Din_bullet.prefab
+  artifactKey: Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Din_bullet.prefab using Guid(c3de2293cdc2b0b479d5f37c7550ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2893d8be61244a9ac2f43866845dc762') in 0.067913 seconds
+  Import took 0.071748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.962663 seconds.
+  path: Assets/Prefabs/Player/Don_bullet.prefab
+  artifactKey: Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Don_bullet.prefab using Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2eb4f2ba07832353070c90a726e51ee0') in 0.014357 seconds
+  Import took 0.021764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005939 seconds.
+  path: Assets/Prefabs/Player/Don_bullet.prefab
+  artifactKey: Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player/Don_bullet.prefab using Guid(93dd5ccf81742b744957debf93af7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2eb4f2ba07832353070c90a726e51ee0') in 0.033026 seconds
+  Import took 0.039300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2474.
+Total: 2.743300 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.094300 ms MarkObjects: 2.305700 ms  DeleteObjects: 0.108100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001257 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2479.
+Total: 3.147800 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.119100 ms MarkObjects: 2.572800 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.208119 seconds.
+  path: Assets/Scripts/Player/PlayerCharacterController.cs
+  artifactKey: Guid(895901b53be5625429a3485038efecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerCharacterController.cs using Guid(895901b53be5625429a3485038efecfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975f05bb5a9710ed4222800c563523f2') in 0.008166 seconds
+  Import took 0.012414 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2483.
+Total: 3.597000 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.128700 ms MarkObjects: 3.078100 ms  DeleteObjects: 0.101300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2487.
+Total: 4.016700 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.132400 ms MarkObjects: 3.346000 ms  DeleteObjects: 0.188000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2491.
+Total: 4.123700 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.113700 ms MarkObjects: 3.451800 ms  DeleteObjects: 0.235800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2495.
+Total: 2.987800 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.442500 ms  DeleteObjects: 0.166600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2499.
+Total: 2.364200 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.100600 ms MarkObjects: 1.901300 ms  DeleteObjects: 0.094400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2503.
+Total: 2.728600 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.083900 ms MarkObjects: 2.283800 ms  DeleteObjects: 0.107100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2507.
+Total: 5.107500 ms (FindLiveObjects: 0.672000 ms CreateObjectMapping: 0.206700 ms MarkObjects: 3.971800 ms  DeleteObjects: 0.254900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2511.
+Total: 2.720100 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.335100 ms  DeleteObjects: 0.108400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2515.
+Total: 3.611700 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.124500 ms  DeleteObjects: 0.130500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2519.
+Total: 3.489500 ms (FindLiveObjects: 0.256300 ms CreateObjectMapping: 0.080400 ms MarkObjects: 3.042100 ms  DeleteObjects: 0.109300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1178.183535 seconds.
+  path: Assets/Scripts/Collectable/SlimeBulletController.cs
+  artifactKey: Guid(274b71b9e813fbb4fb1da208c1f8283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/SlimeBulletController.cs using Guid(274b71b9e813fbb4fb1da208c1f8283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f336ca40754fdf880161d66d1d0cf83f') in 0.005808 seconds
+  Import took 0.011015 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000865 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.459 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 3.668600 ms (FindLiveObjects: 0.316400 ms CreateObjectMapping: 0.117500 ms MarkObjects: 3.075900 ms  DeleteObjects: 0.157000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.493 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 3.903000 ms (FindLiveObjects: 0.305800 ms CreateObjectMapping: 0.116600 ms MarkObjects: 3.290600 ms  DeleteObjects: 0.187900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.222046 seconds.
+  path: Assets/Scripts/Collectable/Coin.cs
+  artifactKey: Guid(99166af3bb2e98e4d909c98f62c4ab60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/Coin.cs using Guid(99166af3bb2e98e4d909c98f62c4ab60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3f6ea9461eb73b71b472d5654b99e4') in 0.006873 seconds
+  Import took 0.012973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.008428 seconds.
+  path: Assets/Scripts/Collectable/Food.cs
+  artifactKey: Guid(2918859de3853cd42883050e663f3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/Food.cs using Guid(2918859de3853cd42883050e663f3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0418cc03baa76d236e3e1231b3b05b53') in 0.006882 seconds
+  Import took 0.011399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.554192 seconds.
+  path: Assets/Scripts/Collectable/Heart.cs
+  artifactKey: Guid(93c84f26a401da84b8d23bf07a2fef74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/Heart.cs using Guid(93c84f26a401da84b8d23bf07a2fef74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a616610e4f1d6eac08efa98728a29c') in 0.002655 seconds
+  Import took 0.009148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.485217 seconds.
+  path: Assets/Scripts/Collectable/SlimeBullet.cs
+  artifactKey: Guid(6a1700e0bda2a6f42bfb83b87e1b44cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/SlimeBullet.cs using Guid(6a1700e0bda2a6f42bfb83b87e1b44cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77cf5d29ebc5dada29dca214cf6e2d3') in 0.009372 seconds
+  Import took 0.015713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.511 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 4.161000 ms (FindLiveObjects: 0.329100 ms CreateObjectMapping: 0.117500 ms MarkObjects: 3.536200 ms  DeleteObjects: 0.176300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.670943 seconds.
+  path: Assets/Scripts/Collectable/SlimeBullet.cs
+  artifactKey: Guid(6a1700e0bda2a6f42bfb83b87e1b44cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Collectable/SlimeBullet.cs using Guid(6a1700e0bda2a6f42bfb83b87e1b44cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f45bce557d8ae79724a4099472aa60') in 0.006644 seconds
+  Import took 0.014032 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001960 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 3.485200 ms (FindLiveObjects: 0.415300 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.768900 ms  DeleteObjects: 0.148700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.421829 seconds.
+  path: Assets/Prefabs/Collectibles/BigHeart.prefab
+  artifactKey: Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/BigHeart.prefab using Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb408b50a427f9f1812bf499092142b') in 0.104913 seconds
+  Import took 0.109991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062524 seconds.
+  path: Assets/Prefabs/Collectibles/BigHeart.prefab
+  artifactKey: Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/BigHeart.prefab using Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fcda369eff7332c3368e8d7ea34c6f') in 0.012880 seconds
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.001172 seconds.
+  path: Assets/Prefabs/Collectibles/BigHeart.prefab
+  artifactKey: Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/BigHeart.prefab using Guid(f28b0ad4f54749348aa61999fddd2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde9b04cdd0cbfc95878813106443ca5') in 0.012113 seconds
+  Import took 0.017529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.196239 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486c023e2e2fa465543c8f46dbe5942a') in 0.023163 seconds
+  Import took 0.029111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.814589 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb1121f804bfbe3a11845001794f8fc') in 0.011324 seconds
+  Import took 0.016434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014233 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb1121f804bfbe3a11845001794f8fc') in 0.011504 seconds
+  Import took 0.016619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.718262 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb303438704ffabf232e99e608cd52e2') in 0.012212 seconds
+  Import took 0.017153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.410993 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b41d522d334f2cc9d9c8086be97949') in 0.012597 seconds
+  Import took 0.017972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.876916 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a15a7949ca908a310c0ae2d01ffad0') in 0.017817 seconds
+  Import took 0.024782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.561941 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc9ace2fe374fad59ed446b0b82ee4b') in 0.012592 seconds
+  Import took 0.017554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.363850 seconds.
+  path: Assets/Prefabs/Collectibles/cherry.prefab
+  artifactKey: Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/cherry.prefab using Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c2e4de988b5796ec01bdf7a1100253') in 0.015011 seconds
+  Import took 0.020623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.583584 seconds.
+  path: Assets/Prefabs/Collectibles/cherry.prefab
+  artifactKey: Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/cherry.prefab using Guid(4b82cbe8e6ca1594ab92de0b3509fa75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd83a3cdf730d5c9853d765d46c71d1a') in 0.013702 seconds
+  Import took 0.020068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.030336 seconds.
+  path: Assets/Prefabs/Collectibles/Coin.prefab
+  artifactKey: Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Coin.prefab using Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8853ea55f80cbbcf6460af06c085a280') in 0.015519 seconds
+  Import took 0.020443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.815770 seconds.
+  path: Assets/Prefabs/Collectibles/Coin.prefab
+  artifactKey: Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Coin.prefab using Guid(927f6a8291ffed444a373af6221b1ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b8446594e0af766e28a4992b7994b4') in 0.016250 seconds
+  Import took 0.023596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.508951 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2278251cdab3a4ee86b3c376f30d0719') in 0.012960 seconds
+  Import took 0.019141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.618396 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '1d6a2ae7903a0013c0d1b549ac8f557b') in 0.011343 seconds
+  Import took 0.016001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.181481 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '8841323c138b9badea94fd98c213c37b') in 0.012666 seconds
+  Import took 0.017681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.821718 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '1039f1f34f6ea44bbd041296fa105ad0') in 0.012482 seconds
+  Import took 0.018123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807611 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'cc13f20fb754d715a47caf8847599e45') in 0.013835 seconds
+  Import took 0.019340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596939 seconds.
+  path: Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab
+  artifactKey: Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Din_SlimeBullet.prefab using Guid(74d0f3f4c99bf3b48a859e7e7661d160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Din_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '19e16be50fcb391155fac479fbfe3a56') in 0.010892 seconds
+  Import took 0.018233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.483300 seconds.
+  path: Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab
+  artifactKey: Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/Don_SlimeBullet.prefab using Guid(649b60bb9b6c7f649ad8ae56d07351ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Don_SlimeBullet) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '5ca6c311f0032d67c96db5e77eb1b9d1') in 0.010563 seconds
+  Import took 0.016171 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 3.344300 ms (FindLiveObjects: 0.310600 ms CreateObjectMapping: 0.117200 ms MarkObjects: 2.737700 ms  DeleteObjects: 0.176800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.994984 seconds.
+  path: Assets/Prefabs/Collectibles/carrot.prefab
+  artifactKey: Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Collectibles/carrot.prefab using Guid(5fe9da5add1f85642adc206efb64c0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d388b27e0aa85ae2323dbd8fcf1a31e') in 0.106074 seconds
+  Import took 0.111811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.696 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1960 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 94.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 4.345300 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.152800 ms MarkObjects: 3.679600 ms  DeleteObjects: 0.175900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
