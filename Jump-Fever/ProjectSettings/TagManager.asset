@@ -6,8 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Collectible
-  - Bullet
   - Ground
+  - PlayerBullet
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
