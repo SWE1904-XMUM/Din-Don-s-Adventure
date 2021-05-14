@@ -20,6 +20,7 @@ public class PlayerHurt : Player
         if(colObj.gameObject.tag =="Enemy")
         {
             TakeDamage();
+			Debug.Log("Health: " + player.health);
         }
     }
 

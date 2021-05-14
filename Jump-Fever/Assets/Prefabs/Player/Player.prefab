@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 6773970240177014913}
   - component: {fileID: 6773970240177014914}
   - component: {fileID: 6773970240177014915}
-  - component: {fileID: 6773970240177014916}
-  - component: {fileID: 6773970240177014917}
-  - component: {fileID: 6773970240177014918}
-  - component: {fileID: 6773970240177014919}
-  - component: {fileID: 6773970240177014936}
   - component: {fileID: -5194820854349941896}
   - component: {fileID: -8124305518425329956}
+  - component: {fileID: 5718158611157357463}
+  - component: {fileID: 1012276000166413342}
+  - component: {fileID: 3749051162591498135}
+  - component: {fileID: 3131556233903822537}
+  - component: {fileID: 2091680731799806987}
+  - component: {fileID: 2101018722348565783}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -77,103 +78,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.014381059, y: 0.55607}
   m_Size: {x: 1.3163897, y: 1.1150526}
   m_Direction: 1
---- !u!114 &6773970240177014916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6773970240177014937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac9cfff1ebe6754f80435c3e48638b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ground:
-    serializedVersion: 2
-    m_Bits: 512
-  health: 5
-  coin: 0
-  energy: 100
-  bullet: 30
---- !u!114 &6773970240177014917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6773970240177014937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620cade0cdefd534c91cd9758941ad0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ground:
-    serializedVersion: 2
-    m_Bits: 0
-  health: 5
-  coin: 0
-  energy: 100
-  bullet: 30
---- !u!114 &6773970240177014918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6773970240177014937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e070652081585243b70307a2fc16548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ground:
-    serializedVersion: 2
-    m_Bits: 512
-  health: 5
-  coin: 0
-  energy: 100
-  bullet: 30
---- !u!114 &6773970240177014919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6773970240177014937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87f845025b55c8f4ca946d8c977d343f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ground:
-    serializedVersion: 2
-    m_Bits: 0
-  health: 5
-  coin: 0
-  energy: 100
-  bullet: 30
---- !u!114 &6773970240177014936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6773970240177014937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f9e2cfe0d02fbe48b88cfdca618cb54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Ground:
-    serializedVersion: 2
-    m_Bits: 0
-  health: 5
-  coin: 0
-  energy: 100
-  bullet: 30
-  bulletObj: {fileID: 0}
-  shootPoint: {fileID: 0}
 --- !u!212 &-5194820854349941896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -244,6 +148,117 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5718158611157357463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac9cfff1ebe6754f80435c3e48638b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+--- !u!114 &1012276000166413342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620cade0cdefd534c91cd9758941ad0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+--- !u!114 &3749051162591498135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e070652081585243b70307a2fc16548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+--- !u!114 &3131556233903822537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f845025b55c8f4ca946d8c977d343f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+--- !u!114 &2091680731799806987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7a59f2523037d498b5d1978857d86a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Din: {fileID: 0}
+  Don: {fileID: 0}
+--- !u!114 &2101018722348565783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9e2cfe0d02fbe48b88cfdca618cb54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+  bulletObj: {fileID: 0}
+  shootPoint: {fileID: 0}
 --- !u!1 &6773970241457018734
 GameObject:
   m_ObjectHideFlags: 0

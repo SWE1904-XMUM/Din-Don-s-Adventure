@@ -8,8 +8,10 @@ public class Bullet : MonoBehaviour
 	[SerializeField] private float  maxBulletDistance = 8f;
 	
 	private Rigidbody2D bulletRb;
-	
 	private float shootingXPosition;
+	
+	//only applicable to player
+	public float bulletPower;
 	
     // Start is called before the first frame update
     void Start()
