@@ -13,12 +13,13 @@ GameObject:
   - component: {fileID: 6773970240177014915}
   - component: {fileID: -5194820854349941896}
   - component: {fileID: -8124305518425329956}
-  - component: {fileID: 5718158611157357463}
-  - component: {fileID: 1012276000166413342}
-  - component: {fileID: 3749051162591498135}
-  - component: {fileID: 3131556233903822537}
-  - component: {fileID: 2091680731799806987}
-  - component: {fileID: 2101018722348565783}
+  - component: {fileID: 6400817579964436428}
+  - component: {fileID: 5243033753739577730}
+  - component: {fileID: 8035564824584050929}
+  - component: {fileID: 7318984241351679882}
+  - component: {fileID: 91234148922639216}
+  - component: {fileID: 7675700531298540706}
+  - component: {fileID: 1310602440655437836}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -148,7 +149,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5718158611157357463
+--- !u!114 &6400817579964436428
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,7 +168,26 @@ MonoBehaviour:
   coin: 0
   energy: 100
   bullet: 30
---- !u!114 &1012276000166413342
+--- !u!114 &5243033753739577730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6082f075eacd5e34e9b355e03a5b24c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
+--- !u!114 &8035564824584050929
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,7 +206,7 @@ MonoBehaviour:
   coin: 0
   energy: 100
   bullet: 30
---- !u!114 &3749051162591498135
+--- !u!114 &7318984241351679882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -200,12 +220,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ground:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   health: 5
   coin: 0
   energy: 100
   bullet: 30
---- !u!114 &3131556233903822537
+--- !u!114 &91234148922639216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -224,7 +244,7 @@ MonoBehaviour:
   coin: 0
   energy: 100
   bullet: 30
---- !u!114 &2091680731799806987
+--- !u!114 &7675700531298540706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,7 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Din: {fileID: 0}
   Don: {fileID: 0}
---- !u!114 &2101018722348565783
+--- !u!114 &1310602440655437836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,8 +277,8 @@ MonoBehaviour:
   coin: 0
   energy: 100
   bullet: 30
-  bulletObj: {fileID: 0}
-  shootPoint: {fileID: 0}
+  bulletObj: {fileID: 875315510768393047, guid: c3de2293cdc2b0b479d5f37c7550ccb3, type: 3}
+  shootPoint: {fileID: 6773970241457018733}
 --- !u!1 &6773970241457018734
 GameObject:
   m_ObjectHideFlags: 0

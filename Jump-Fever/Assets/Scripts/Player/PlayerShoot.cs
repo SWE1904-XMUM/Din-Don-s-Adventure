@@ -6,13 +6,12 @@ public class PlayerShoot : Player
 {
 	[SerializeField] private Bullet bulletObj;
 	[SerializeField] private Transform shootPoint;
-    // Start is called before the first frame update
+    
     protected override void Start()
     {
         base.Start();
     }
 
-    // Update is called once per frame
     protected override void Update()
     {
         base.Update();
@@ -20,13 +19,49 @@ public class PlayerShoot : Player
 		{
 			if(bulletObj != null && shootPoint != null)
 			{
-				Shoot();
+				//have bullet
+				if(player.bullet > 0)
+				{
+					if(playerAnim.GetBool("jump") || playerAnim.GetBool("fall"))
+					{
+						Shoot();
+					}
+					else if(playerAnim.GetBool("idle") || playerAnim.GetBool("run"))
+					{
+						SwitchPlayerAnimationState();
+					}
+				}
 			}
 		}
     }
 	
+	private void SwitchPlayerAnimationState()
+	{
+		if(playerAnim.GetBool("run"))
+		{
+			playerAnim.SetBool("runShoot",true);
+		}
+		if(playerAnim.GetBool("idle"))
+		{
+			playerAnim.SetBool("shoot",true);
+		}
+	}
+	
 	private void Shoot()
 	{
 		Instantiate(bulletObj, shootPoint.position, shootPoint.rotation);
+		player.bullet -= 1;
+	}
+	
+	private void EndShoot()
+	{
+		if(playerAnim.GetBool("runShoot"))
+		{
+			playerAnim.SetBool("runShoot",false);
+		}
+		if(playerAnim.GetBool("shoot"))
+		{
+			playerAnim.SetBool("shoot",false);
+		}
 	}
 }

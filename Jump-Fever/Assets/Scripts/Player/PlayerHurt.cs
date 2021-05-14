@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerHurt : Player
 {
+	private float hurtForce = 4f;
+	
 	protected override void Start()
     {
         base.Start();
@@ -15,12 +17,13 @@ public class PlayerHurt : Player
     }
 
     //take damage when hitting enemy
-    private void OnColliderEnter2D(Collision2D colObj)
+    private void OnCollisionEnter2D(Collision2D colObj)
     {
-        if(colObj.gameObject.tag =="Enemy")
+        if(colObj.gameObject.tag == "Enemy")
         {
             TakeDamage();
-			Debug.Log("Health: " + player.health);
+			HurtMovement(colObj);
+			Hurt();
         }
     }
 
@@ -30,6 +33,7 @@ public class PlayerHurt : Player
         if(colObj.gameObject.tag == "EnemyBullet")
         {
             TakeDamage();
+			Hurt();
         }
     }
 
@@ -37,4 +41,35 @@ public class PlayerHurt : Player
     {
         player.health -= 1;
     }
+	
+	private void Hurt()
+	{
+		playerAnim.SetBool("hurt", true);
+	}
+	
+	private void EndHurt()
+	{
+		playerAnim.SetBool("hurt", false);
+	}
+	
+	private void HurtMovement(Collision2D colObj)
+	{
+		if(colObj.transform.position.x < transform.position.x)
+		{
+			//shock to right
+			playerRb.velocity = new Vector2(hurtForce, playerRb.velocity.y);
+		}
+		if(colObj.transform.position.x > transform.position.x)
+		{
+			//shock to left
+			playerRb.velocity = new Vector2(-hurtForce, playerRb.velocity.y);
+		}
+		//ResetVelocity();
+	}
+	
+	private IEnumerator ResetVelocity()
+	{
+		yield return new WaitForSeconds(0.8f);
+		playerRb.velocity = Vector2.zero;
+	}
 }
