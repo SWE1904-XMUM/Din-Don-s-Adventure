@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerShoot : Player
 {
-	[SerializeField] private Bullet bulletObj;
+	public Bullet bulletObj;
 	[SerializeField] private Transform shootPoint;
     
     protected override void Start()
@@ -14,6 +15,13 @@ public class PlayerShoot : Player
 
     protected override void Update()
     {
+		Scene currScene = SceneManager.GetActiveScene();
+		if(currScene.name == "PlayerSelectionScene")
+		{
+			//do not allow player to shoot in PlayerSelectionScene
+			return;
+		}
+		
         base.Update();
 		if(Input.GetKeyDown(KeyCode.X))
 		{

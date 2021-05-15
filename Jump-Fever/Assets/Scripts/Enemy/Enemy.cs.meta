@@ -3,7 +3,9 @@ guid: 337d143d03cb2d344b34572430319a4b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - enemyDeathSr: {fileID: 5837403349714197020, guid: 27cc07d7418810646a13829120d4d04b, type: 3}
+  - enemyDeathAnim: {fileID: 3943852051030668235, guid: 27cc07d7418810646a13829120d4d04b, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

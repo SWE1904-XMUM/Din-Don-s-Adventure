@@ -25,11 +25,12 @@ public class Player : MonoBehaviour
 	
     protected virtual void Start()
     {
+		DontDestroyOnLoad(gameObject);
         playerRb = GetComponent<Rigidbody2D>();
-		    playerAnim = GetComponent<Animator>();
-		    playerColl = GetComponent<Collider2D>();
-		    player = GetComponent<Player>();
-		    //playerAnim.SetBool("idle",true);
+		playerAnim = GetComponent<Animator>();
+		playerColl = GetComponent<Collider2D>();
+		player = GetComponent<Player>();
+		//playerAnim.SetBool("idle",true);
     }
 
     protected virtual void Update()
