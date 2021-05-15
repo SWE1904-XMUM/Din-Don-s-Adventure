@@ -46,6 +46,18 @@ public class GameUIManager : MonoBehaviour
 		//energyBar.fillAmount = Mathf.Lerp(energyBar.fillAmount, player.energy / player.maxEnergy, 1);
 		energyBarNewWidth = player.energy / player.maxEnergy * energyBarMaxWidth;
 		energyBar.sizeDelta = new Vector2(energyBarNewWidth,energyBarMaxHeight);
+		if(player.energy < 0.3 * player.maxEnergy)
+		{
+			energyBarImg.color = new Color32(255,47,49,255);
+		}
+		else if(player.energy < 0.7 * player.maxEnergy)
+		{
+			energyBarImg.color = new Color32(253,255,47,255);
+		}
+		else if(player.energy <= player.maxEnergy)
+		{
+			energyBarImg.color = new Color32(83,255,91,255);
+		}
 	}
 	
 	private void UpdateHealth()

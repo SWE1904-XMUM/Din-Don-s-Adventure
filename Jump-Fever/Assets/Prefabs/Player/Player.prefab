@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 91234148922639216}
   - component: {fileID: 7675700531298540706}
   - component: {fileID: 1310602440655437836}
+  - component: {fileID: 5281352794557465460}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -281,6 +282,25 @@ MonoBehaviour:
   bullet: 30
   bulletObj: {fileID: 875315510768393047, guid: c3de2293cdc2b0b479d5f37c7550ccb3, type: 3}
   shootPoint: {fileID: 6773970241457018733}
+--- !u!114 &5281352794557465460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773970240177014937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c5afcb98c10d547a93197176e1e7a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+  health: 5
+  coin: 0
+  energy: 100
+  bullet: 30
 --- !u!1 &6773970241457018734
 GameObject:
   m_ObjectHideFlags: 0
