@@ -42,11 +42,13 @@ public class PlayerHurt : Player
         player.health -= 1;
     }
 	
+	//call from OnTriggerEnter2D()
 	private void Hurt()
 	{
 		playerAnim.SetBool("hurt", true);
 	}
 	
+	//call from animation
 	private void EndHurt()
 	{
 		playerAnim.SetBool("hurt", false);

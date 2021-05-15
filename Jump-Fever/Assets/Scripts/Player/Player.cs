@@ -30,7 +30,6 @@ public class Player : MonoBehaviour
 		playerAnim = GetComponent<Animator>();
 		playerColl = GetComponent<Collider2D>();
 		player = GetComponent<Player>();
-		//playerAnim.SetBool("idle",true);
     }
 
     protected virtual void Update()

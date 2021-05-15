@@ -55,12 +55,16 @@ public class PlayerShoot : Player
 		}
 	}
 	
+	//jump & fall: call from Update()
+	//idle & run: call from animation
 	private void Shoot()
 	{
 		Instantiate(bulletObj, shootPoint.position, shootPoint.rotation);
 		player.bullet -= 1;
 	}
 	
+	//jump & fall: no state change of animation
+	//idle & run: call from animation
 	private void EndShoot()
 	{
 		if(playerAnim.GetBool("runShoot"))
