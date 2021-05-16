@@ -6,7 +6,7 @@ public class StoryTextController : MonoBehaviour
 {
 	[SerializeField] Transform stopPosition;
 	private Rigidbody2D storyTextRb;
-	private float moveSpeed = 80f;
+	private float moveSpeed = 1.5f;
 	
 	private GameObject nextButton;
 	

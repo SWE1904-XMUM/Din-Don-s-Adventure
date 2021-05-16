@@ -30,7 +30,6 @@ public class PlayerEnergyManager : Player
 	
 	private void ManageEnergy()
 	{
-		Debug.Log("ManageEnergy");
 		if(playerAnim.GetBool("run"))
 		{
 			player.energy -= runEnergy;

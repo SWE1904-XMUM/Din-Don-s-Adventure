@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {	
@@ -45,13 +46,13 @@ public class Player : MonoBehaviour
 	protected virtual void HandleInput()
 	{
 		hInput = Input.GetAxis("Horizontal");
-        //not using this function for jumping (refer PlayerJump)
-		//vInput = Input.GetAxis("Vertical");
+        //vertical input is handled in playerJump
 	}
 	
 	private void Death()
 	{
-		//Game over
+		Destroy(gameObject);
+		SceneManager.LoadScene("GameOverScene");
 	}
 	
 	protected bool IsTouchingGround()

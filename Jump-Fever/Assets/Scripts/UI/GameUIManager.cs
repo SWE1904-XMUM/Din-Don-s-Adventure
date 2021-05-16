@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class GameUIManager : MonoBehaviour
+public class GameUIManager : Singleton<GameUIManager>
 {
     [Header("Display")]
 	public Image energyBarImg;

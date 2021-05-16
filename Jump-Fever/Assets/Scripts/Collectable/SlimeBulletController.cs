@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SlimeBulletController : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class SlimeBulletController : MonoBehaviour
 		bulletAnim = GetComponent<Animator>();
 		
 		//get the player in the scene
-		playerGameObj = GameObject.Find("Player");
+		playerGameObj = FindObjectOfType<Player>().gameObject;
 		
 		//change the bullet collectable
 		ChangeBulletCollectable();
@@ -30,15 +31,12 @@ public class SlimeBulletController : MonoBehaviour
 	
 	private void ChangeBulletCollectable()
 	{
-		Debug.Log("Change bullet");
 		if(playerGameObj.GetComponent<Animator>().runtimeAnimatorController == Din.GetComponent<Animator>().runtimeAnimatorController)
 		{
-			Debug.Log("Change bullet to din");
 			ToDinBullet();
 		}
 		if(playerGameObj.GetComponent<Animator>().runtimeAnimatorController == Don.GetComponent<Animator>().runtimeAnimatorController)
 		{
-			Debug.Log("Change bullet to don");
 			ToDonBullet();
 		}
 	}
