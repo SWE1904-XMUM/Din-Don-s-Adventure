@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     protected Rigidbody2D enemyRb;
-protected SpriteRenderer enemySr;
+	protected SpriteRenderer enemySr;
     protected Animator enemyAnim;
     
     //enemies' attributes
@@ -36,7 +36,7 @@ protected SpriteRenderer enemySr;
 		}
 	}
 	
-	protected void TakeDamage(float damage)
+	protected virtual void TakeDamage(float damage)
 	{
 		health -= damage;
 	}

@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-	[SerializeField] private float bulletSpeed = 8f;
 	[SerializeField] private float  maxBulletDistance = 8f;
 	
 	private Rigidbody2D bulletRb;
 	private float shootingXPosition;
-	
+
 	//only applicable to player
 	public float bulletPower;
-	
-    // Start is called before the first frame update
-    void Start()
+	public float bulletSpeed = 8f;
+
+	// Start is called before the first frame update
+	void Start()
     {
         bulletRb = GetComponent<Rigidbody2D>();
 		shootingXPosition = transform.position.x;
