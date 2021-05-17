@@ -5,11 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     protected Rigidbody2D enemyRb;
-	protected SpriteRenderer enemySr;
+protected SpriteRenderer enemySr;
     protected Animator enemyAnim;
-	
-	[SerializeField] private SpriteRenderer enemyDeathSr;
-	[SerializeField] private Animator enemyDeathAnim;
     
     //enemies' attributes
     public float health;
@@ -17,7 +14,6 @@ public class Enemy : MonoBehaviour
     protected virtual void Start()
     {
         enemyRb = GetComponent<Rigidbody2D>();
-		enemyDeathSr = GetComponent<SpriteRenderer>();
         enemyAnim = GetComponent<Animator>();
     }
 
