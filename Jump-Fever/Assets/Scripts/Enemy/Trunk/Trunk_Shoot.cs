@@ -7,14 +7,13 @@ public class Trunk_Shoot : Trunk
 	[SerializeField] private Transform shootPoint;
 	[SerializeField] private GameObject bulletObj;
 
-	private float shootRate;
+	private float shootRate = 1.5f;
 	private float nextShoot;
 
 	protected override void Start()
 	{
 		base.Start();
 
-		shootRate = 1.5f;
 		nextShoot = Time.time;
 	}
 
@@ -24,7 +23,9 @@ public class Trunk_Shoot : Trunk
 
 		if (Time.time > nextShoot)
 		{
+			//is the time of next shoot
 			Shoot();
+			//get the time of next shoot
 			nextShoot = Time.time + shootRate;
 		}
 	}
