@@ -42,7 +42,7 @@ public class PlayerEnergyManager : Player
 		{
 			player.energy -= shootEnergy;
 		}
-		else if(playerAnim.GetBool("Hurt"))
+		else if(playerAnim.GetBool("hurt"))
 		{
 			player.energy -= hurtEnergy;
 		}

@@ -38,7 +38,6 @@ public class Rock_Patrol : Rock
 protected override void Move()
 	{
 		enemyRb.velocity = new Vector2(moveDirection * moveSpeed, enemyRb.velocity.y);
-		enemyAnim.SetBool("move",true);
 		if(transform.position.x >= rightXLimit)
 		{
 			moveDirection = -1;

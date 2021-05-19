@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerStartPositionController : MonoBehaviour
 {
+	//put this object in the position the player will be placed at the beginning of each level
 	private GameObject player;
     // Start is called before the first frame update
     void Start()
