@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 	public float energy = 100f;
 	public int bullet = 30;
 	
-	public readonly float maxEnergy = 100f;
+	public float maxEnergy = 100f;
 	public readonly float maxBullet = 30;
 
 	protected float hInput;
