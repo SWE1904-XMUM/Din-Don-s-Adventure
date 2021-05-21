@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 8963076447503445653}
   - component: {fileID: 3132718291428683541}
   - component: {fileID: 6523511517738279565}
-  - component: {fileID: 8180252916135169326}
-  - component: {fileID: 7834797114280430974}
+  - component: {fileID: -3953916204910967992}
+  - component: {fileID: 3751199475649007880}
   m_Layer: 0
   m_Name: Golem
   m_TagString: Enemy
@@ -207,7 +207,7 @@ PolygonCollider2D:
       - {x: 1.125, y: -1.3125}
       - {x: 1.5, y: -1.1875}
       - {x: 1.5, y: 0.4375}
---- !u!114 &8180252916135169326
+--- !u!114 &-3953916204910967992
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,8 +220,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  h: 40
---- !u!114 &7834797114280430974
+  h: 150
+--- !u!114 &3751199475649007880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  h: 40
-  shootPoint: {fileID: 2407182417983663646}
+  h: 150
+  shootPoint: {fileID: 0}
   bulletObjArm: {fileID: 273337487450434155, guid: fe4ec16d7a6867e47b44ca983a76c8d9, type: 3}
   bulletObjLaser: {fileID: 1613010533222349697, guid: d24be990a6907ae40b3adef15b0e4b32, type: 3}

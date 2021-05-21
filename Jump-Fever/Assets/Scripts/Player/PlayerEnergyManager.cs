@@ -7,9 +7,9 @@ public class PlayerEnergyManager : Player
 	private float time = 0f;
 	private float timeInterval = 0.5f;
 	
-	private float runEnergy = 2f;
-	private float jumpEnergy = 3f;
-	private float shootEnergy = 5f;
+	private float runEnergy = 1.5f;
+	private float jumpEnergy = 2f;
+	private float shootEnergy = 3f;
 	private float hurtEnergy = 7f;
 	
     protected override void Start()

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ghost : Enemy
 {
 	//enemy's attribute
-	private float h = 20f;
+	private float h = 60f;
     
     protected override void Start()
     {

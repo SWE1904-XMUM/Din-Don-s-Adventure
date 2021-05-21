@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Golem : Enemy
 {
 	//enemy's attribute
-	[SerializeField] private float h = 180f;
+	[SerializeField] private float h = 150f;
 	private Player player;
 
 	protected override void Start()

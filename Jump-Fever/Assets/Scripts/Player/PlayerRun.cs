@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerRun : Player
 {
-	private float runSpeed = 5f;
+	private float runSpeed = 6f;
 	
 	// Start is called before the first frame update
     protected override void Start()

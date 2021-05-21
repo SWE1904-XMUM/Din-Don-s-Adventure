@@ -23,7 +23,10 @@ public class Golem_Shoot : Golem
 	{
 		base.Update();
 
-		Shoot();
+		if(!enemyAnim.GetBool("die"))
+		{
+			Shoot();
+		}
 	}
 
 	private void Shoot()

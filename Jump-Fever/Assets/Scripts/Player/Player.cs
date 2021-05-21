@@ -35,12 +35,18 @@ public class Player : MonoBehaviour
 
     protected virtual void Update()
     {
-		  if(health <= 0 || energy <= 0)
-		  {
-			  Death();
-		  }
-
-      HandleInput();
+		if(energy <= 0)
+		{
+			energy = maxEnergy;
+			health -= 1;
+			transform.position = GameObject.Find("PlayerStartPosition").transform.position;
+		}
+		if(health <= 0)
+		{
+			Death();
+		}
+		
+		HandleInput();
     }
 	
 	protected virtual void HandleInput()
