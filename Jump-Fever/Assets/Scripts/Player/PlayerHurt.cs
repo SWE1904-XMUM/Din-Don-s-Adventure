@@ -34,6 +34,7 @@ public class PlayerHurt : Player
         {
             TakeDamage();
 			Hurt();
+			Destroy(colObj.gameObject);
         }
     }
 

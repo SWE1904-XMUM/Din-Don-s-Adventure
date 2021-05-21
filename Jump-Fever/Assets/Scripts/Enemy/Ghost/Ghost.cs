@@ -9,8 +9,8 @@ public class Ghost : Enemy
     
     protected override void Start()
     {
-      base.Start();
-		  UpdateHealth();
+		base.Start();
+		UpdateHealth();
     }
 
     protected override void Update()

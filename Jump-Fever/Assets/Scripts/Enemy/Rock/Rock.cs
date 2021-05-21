@@ -22,6 +22,4 @@ public class Rock : Enemy
 	{
 		health = h;
 	}
-	
-	
 }

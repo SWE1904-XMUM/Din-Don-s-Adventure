@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2407182417983663646}
   m_Layer: 0
-  m_Name: shootPoint_Golem
+  m_Name: shootPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,8 @@ GameObject:
   - component: {fileID: 8963076447503445653}
   - component: {fileID: 3132718291428683541}
   - component: {fileID: 6523511517738279565}
+  - component: {fileID: 8180252916135169326}
+  - component: {fileID: 7834797114280430974}
   m_Layer: 0
   m_Name: Golem
   m_TagString: Enemy
@@ -59,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 7174559989757879372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.98, y: -3.25, z: 0}
-  m_LocalScale: {x: 0.46174535, y: 0.46174535, z: 0.46174535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2407182417983663646}
   m_Father: {fileID: 0}
@@ -169,10 +171,10 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 1.42}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 3, y: 2.875}
     newSize: {x: 8, y: 7.6666665}
     adaptiveTilingThreshold: 0.5
@@ -205,3 +207,34 @@ PolygonCollider2D:
       - {x: 1.125, y: -1.3125}
       - {x: 1.5, y: -1.1875}
       - {x: 1.5, y: 0.4375}
+--- !u!114 &8180252916135169326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7174559989757879372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f125d15f631284ca8bc9c4200411bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  h: 40
+--- !u!114 &7834797114280430974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7174559989757879372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f126e46006faab745b4012f673b84162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  h: 40
+  shootPoint: {fileID: 2407182417983663646}
+  bulletObjArm: {fileID: 273337487450434155, guid: fe4ec16d7a6867e47b44ca983a76c8d9, type: 3}
+  bulletObjLaser: {fileID: 1613010533222349697, guid: d24be990a6907ae40b3adef15b0e4b32, type: 3}

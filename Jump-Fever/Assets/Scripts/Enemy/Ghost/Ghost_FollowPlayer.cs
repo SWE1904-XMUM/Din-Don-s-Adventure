@@ -32,6 +32,7 @@ public class Ghost_FollowPlayer : Ghost
         directionToPlayer = (player.transform.position - transform.position).normalized;
         ghostRb.velocity = new Vector2(directionToPlayer.x, directionToPlayer.y) * moveSpeed;
     }
+	
     private void  LateUpdate()
     {
         if (ghostRb.velocity.x > 0)
