@@ -236,21 +236,25 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: e7ea5e375112f3645a0f121e4e0d6925, type: 3}
     volume: 0.6
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: playerShoot
     clip: {fileID: 8300000, guid: 4c20cf12681713245812c816550c885e, type: 3}
     volume: 0.6
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: playerHurt
     clip: {fileID: 8300000, guid: 6edd9f7f8e7d8594b963d71746cc8971, type: 3}
     volume: 0.7
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: collect
     clip: {fileID: 8300000, guid: 18489ff531e3efb4eabbd63faa2cbfa5, type: 3}
     volume: 0.6
     pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &506861233
 Transform:
@@ -1096,11 +1100,37 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 32f419f79816a7a4f96a1780f00a1904, type: 3}
     volume: 1
     pitch: 1
+    loop: 1
     source: {fileID: 0}
   - name: level
     clip: {fileID: 8300000, guid: 56e003f492043fb45be2ba01d323670b, type: 3}
     volume: 1
     pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: level5
+    clip: {fileID: 8300000, guid: 494bc32504d5d9f42b1261ddd0242a2f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: bossLevel
+    clip: {fileID: 8300000, guid: 2e1e951ed2e3dec44b433fcb3820515c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: gameClear
+    clip: {fileID: 8300000, guid: b83b083a0c3b8ea49984206e20b5fad5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: gameOver
+    clip: {fileID: 8300000, guid: cb75ca90d3e0f544b8096f5311099750, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &1574546159
 Transform:

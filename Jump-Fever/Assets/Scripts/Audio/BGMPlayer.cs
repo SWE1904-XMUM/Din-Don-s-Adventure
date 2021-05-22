@@ -21,7 +21,7 @@ public class BGMPlayer : MonoBehaviour
 			s.source.clip = s.clip;
 			s.source.volume = s.volume;
 			s.source.pitch = s.pitch;
-			s.source.loop = true;
+			s.source.loop = s.loop;
 		}
 	}
 	
@@ -67,6 +67,46 @@ public class BGMPlayer : MonoBehaviour
 		if(sceneName == "HomeScene")
 		{
 			return "opening";
+		}
+		if(sceneName == "InstructionScene" || sceneName == "PlayerSelection")
+		{
+			
+		}
+		if(sceneName == "StoryScene")
+		{
+			
+		}
+		if(sceneName == "Level 1")
+		{
+			
+		}
+		if(sceneName == "Level 2")
+		{
+			
+		}
+		if(sceneName == "Level 3")
+		{
+			
+		}
+		if(sceneName == "Level 4")
+		{
+			
+		}
+		if(sceneName == "Level 5")
+		{
+			return "level5";
+		}
+		if(sceneName == "BossScene")
+		{
+			return "bossLevel";
+		}
+		if(sceneName == "ClearScene")
+		{
+			return "gameClear";
+		}
+		if(sceneName == "GameOverScene")
+		{
+			return "gameOver";
 		}
 		return null;
 	}

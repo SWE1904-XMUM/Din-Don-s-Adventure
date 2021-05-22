@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 	protected Rigidbody2D playerRb;
 	protected Animator playerAnim;
 	protected Collider2D playerColl;
+	protected SpriteRenderer playerSr;
 	protected Player player;
 	
 	[SerializeField] private LayerMask Ground;
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>();
 		playerAnim = GetComponent<Animator>();
 		playerColl = GetComponent<Collider2D>();
+		playerSr = GetComponent<SpriteRenderer>();
 		player = GetComponent<Player>();
     }
 
