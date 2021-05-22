@@ -6,7 +6,6 @@ public class Ghost_FollowPlayer : Ghost
 {
 	private float moveSpeed = 2f;
 	
-	private Rigidbody2D ghostRb;
 	private Player player;
 	
 	private Vector3 directionToPlayer;
@@ -14,7 +13,6 @@ public class Ghost_FollowPlayer : Ghost
     protected override void Start()
     {
 		base.Start();
-       ghostRb = GetComponent<Rigidbody2D>();
 	   
 	   //find player in the scene
        player = FindObjectOfType<Player>();
@@ -31,18 +29,17 @@ public class Ghost_FollowPlayer : Ghost
 		//get the direction to player
         directionToPlayer = (player.transform.position - transform.position).normalized;
 		//set the velocity of ghost
-        ghostRb.velocity = new Vector2(directionToPlayer.x, 0) * moveSpeed;
-    }
-	
-    private void  LateUpdate()
-    {
-        if (ghostRb.velocity.x > 0)
+        enemyRb.velocity = new Vector2(directionToPlayer.x, 0) * moveSpeed;
+		
+		if (enemyRb.velocity.x > 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+			//flip to right
+            transform.eulerAngles = new Vector3(0,180,0);
         }
-        else if (ghostRb.velocity.x <= 0)
+        else if (enemyRb.velocity.x <= 0)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+			//flip to left
+            transform.eulerAngles = new Vector3(0,0,0);
         }
     }
 }
