@@ -82,11 +82,11 @@ public class BGMPlayer : MonoBehaviour
 		}
 		if(sceneName == "Level 2")
 		{
-			
+			return "level2";
 		}
 		if(sceneName == "Level 3")
 		{
-			
+			return "level3";
 		}
 		if(sceneName == "Level 4")
 		{
