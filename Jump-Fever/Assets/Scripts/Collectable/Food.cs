@@ -12,7 +12,7 @@ public class Food : Collectable
 	
 	protected override void Collect()
 	{
-		player.energy = player.energy + 30;
+		player.energy = player.energy + 25;
 		if(player.energy >= 100)
 		{
 			player.energy = 100;

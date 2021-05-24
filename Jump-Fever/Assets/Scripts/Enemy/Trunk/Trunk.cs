@@ -22,14 +22,4 @@ public class Trunk : Enemy
 	{
 		health = h;
 	}
-
-	protected override void TakeDamage(float damage)
-	{
-		health -= damage;
-
-		if (health <= 0)
-		{
-			Destroy(gameObject);
-		}
-	}
 }

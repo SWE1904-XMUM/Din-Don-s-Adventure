@@ -6,14 +6,36 @@ public class PlayerHurt : Player
 {
 	private float hurtForce = 4f;
 	
+	//shield given when player hurt by hitting the enemy
+	private bool shieldActive = false;
+	private float shieldTimer;
+	private float hurtShieldMaxTime = 8f;
+	
+	private GameObject shieldObject;
+	
 	protected override void Start()
     {
         base.Start();
+		shieldObject = GameObject.Find("BubbleShield");
+		shieldObject.SetActive(false);
     }
 
     protected override void Update()
     {
         base.Update();
+		if(shieldActive == true)
+		{
+			shieldObject.SetActive(true);
+			shieldTimer += Time.fixedDeltaTime;
+			
+			//exceed shield max time
+			if(shieldTimer >= hurtShieldMaxTime)
+			{
+				//deactivate shield
+				shieldObject.SetActive(false);
+				shieldActive = false;
+			}
+		}
     }
 
     //take damage when hitting enemy
@@ -21,9 +43,16 @@ public class PlayerHurt : Player
     {
         if(colObj.gameObject.tag == "Enemy")
         {
-            TakeDamage();
-			HurtMovement(colObj);
-			Hurt();
+            if(shieldActive == false)
+			{
+				TakeDamage();
+				HurtMovement(colObj);
+				Hurt();
+				
+				//activate shield
+				shieldActive = true;
+				shieldTimer = 0;
+			}
         }
     }
 
@@ -66,12 +95,5 @@ public class PlayerHurt : Player
 			//shock to left
 			playerRb.velocity = new Vector2(-hurtForce, playerRb.velocity.y);
 		}
-		//ResetVelocity();
-	}
-	
-	private IEnumerator ResetVelocity()
-	{
-		yield return new WaitForSeconds(0.8f);
-		playerRb.velocity = Vector2.zero;
 	}
 }

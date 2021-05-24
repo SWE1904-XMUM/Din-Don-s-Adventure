@@ -8,7 +8,9 @@ public class LevelCollider : MonoBehaviour
 	{
 		if(colObj.gameObject.tag == "Player")
 		{
-			colObj.gameObject.GetComponent<Player>().health -= 1;
+			Player player = colObj.gameObject.GetComponent<Player>();
+			player.health -= 1;
+			player.energy = player.maxEnergy;
 			SendPlayerToStartPosition(colObj);
 		}
 	}

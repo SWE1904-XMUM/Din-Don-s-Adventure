@@ -55,11 +55,11 @@ TagManager:
   - name: Middleground 2
     uniqueID: 4139148823
     locked: 0
-  - name: Grass
-    uniqueID: 1373989497
-    locked: 0
   - name: Collectible
     uniqueID: 2780128839
+    locked: 0
+  - name: Grass
+    uniqueID: 1373989497
     locked: 0
   - name: Enemy
     uniqueID: 113350491

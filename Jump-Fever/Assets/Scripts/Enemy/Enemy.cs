@@ -51,7 +51,7 @@ public class Enemy : MonoBehaviour
       //shoot bullet or laser
     }
 	
-	protected void Death()
+	protected virtual void Death()
 	{
 		Destroy(gameObject);
 	}
