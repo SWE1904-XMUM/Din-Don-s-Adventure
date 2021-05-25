@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 2719432414661942771}
   - component: {fileID: 6186314472759985195}
   - component: {fileID: 6041236356197883050}
-  - component: {fileID: 2390233915095796347}
   - component: {fileID: 1734660735515245317}
+  - component: {fileID: 5355680705421813138}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Enemy
@@ -160,19 +160,6 @@ PolygonCollider2D:
       - {x: 0.6389103, y: -0.46098804}
       - {x: 0.6921215, y: 0.37661195}
       - {x: 0.41021347, y: 0.8539467}
---- !u!114 &2390233915095796347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007523805008333823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3caa98dda94c204e9abc7072159e919, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
 --- !u!114 &1734660735515245317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +170,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aee0f0383d22ff1438abc591173b263c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+--- !u!114 &5355680705421813138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007523805008333823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679cde0c56a4a7c43a343b6ed8730595, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
