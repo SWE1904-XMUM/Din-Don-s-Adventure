@@ -34,7 +34,7 @@ public class Golem_Shoot : Golem
 		if (Time.time >= nextShootForArm)
 		{
 			//release arm bullet
-			Instantiate(bulletObjArm, transform.position, Quaternion.identity);
+			Instantiate(bulletObjArm, shootPoint.transform.position, Quaternion.identity);
 
 			nextShootForLaser = Time.time + shootRate;
 			nextShootForArm = Time.time + shootRate * 2;
@@ -44,7 +44,7 @@ public class Golem_Shoot : Golem
 		if (Time.time >= nextShootForLaser)
 		{
 
-			Instantiate(bulletObjLaser, transform.position, Quaternion.identity);
+			Instantiate(bulletObjLaser, shootPoint.transform.position, Quaternion.identity);
 			nextShootForLaser = Time.time + shootRate * 4;
 		}
 	}

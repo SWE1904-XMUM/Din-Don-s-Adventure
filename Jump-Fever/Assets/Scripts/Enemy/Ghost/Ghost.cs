@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Ghost : Enemy
-{    private float h = 60f;
+{
+	[SerializeField] private float h = 60f;
     
     protected override void Start()
     {

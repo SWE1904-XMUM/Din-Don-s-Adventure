@@ -3603,6 +3603,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1734660735515245317, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355680705421813138, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
 --- !u!4 &566516095 stripped
@@ -76656,6 +76664,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ' Ghost 1'
       objectReference: {fileID: 0}
+    - target: {fileID: 1734660735515245317, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355680705421813138, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
 --- !u!4 &1841654219 stripped
@@ -76717,6 +76733,14 @@ PrefabInstance:
     - target: {fileID: 1007523805008333823, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
       propertyPath: m_Name
       value: Ghost 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734660735515245317, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355680705421813138, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
@@ -76965,6 +76989,14 @@ PrefabInstance:
     - target: {fileID: 1007523805008333823, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
       propertyPath: m_Name
       value: Ghost 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734660735515245317, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 5355680705421813138, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}
+      propertyPath: h
+      value: 70
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f478e8f2db1b8499aade3ec7bf3221, type: 3}

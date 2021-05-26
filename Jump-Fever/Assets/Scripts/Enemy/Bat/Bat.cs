@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bat : Enemy
 {
 	//enemy's attribute
-	private float h = 30f;
+	[SerializeField] private float h = 80f;
     
     protected override void Start()
     {
