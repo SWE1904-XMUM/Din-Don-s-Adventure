@@ -64,21 +64,17 @@ public class BGMPlayer : MonoBehaviour
 	
 	public string GetSceneBGM(string sceneName)
 	{
-		if(sceneName == "HomeScene")
+		if(sceneName == "HomeScene" || sceneName == "InstructionScene" || sceneName == "PlayerSelection")
 		{
 			return "opening";
 		}
-		if(sceneName == "InstructionScene" || sceneName == "PlayerSelection")
-		{
-			
-		}
 		if(sceneName == "StoryScene")
 		{
-			
+			return "story";
 		}
 		if(sceneName == "Level 1")
 		{
-			
+			return "level1";
 		}
 		if(sceneName == "Level 2")
 		{

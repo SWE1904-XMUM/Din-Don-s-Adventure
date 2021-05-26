@@ -1102,6 +1102,18 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: story
+    clip: {fileID: 8300000, guid: 592d4c172c755a44a9f6977397bec796, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: level1
+    clip: {fileID: 8300000, guid: ef5b1fee4fb5c6b43ab01142820b7f55, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   - name: level2
     clip: {fileID: 8300000, guid: ebb403407c476724c8b1527784aa03cc, type: 3}
     volume: 1

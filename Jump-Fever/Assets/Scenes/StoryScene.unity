@@ -221,7 +221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 19}
+  m_AnchoredPosition: {x: 0, y: -44}
   m_SizeDelta: {x: 348.086, y: 133.4423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &843654020
@@ -260,7 +260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000102436636, y: -377}
+  m_AnchoredPosition: {x: 0, y: -480}
   m_SizeDelta: {x: 666.3975, y: 133.4423}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &843654022
@@ -298,23 +298,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0abf22c12c9042645bc9b2d9c48d2e8a, type: 3}
-    m_FontSize: 32
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Returns the number of samples available since the last time AudioRenderer.Render
-    was called. This is dependent on the frame capture rate.Returns the number of
-    samples available since the last time AudioRenderer.Render was called. This is
-    dependent on the frame capture rate.Returns the number of samples available since
-    the last time AudioRenderer.Render was called. This is dependent on the frame
-    capture rate.
+  m_Text: "Din and Don are twins. One day, they were asked by their mother to visit
+    their grandmother who\u2019s residing in the lovely town of Aqua.\nOn their journey,
+    one of the twins got kidnapped by an unknown creature. The twins have to go through
+    an adventure to save one another.  "
 --- !u!222 &843654024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -441,7 +439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3372628300100905727, guid: 2f3c56d5ca5c508489b294c863102086, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Level 2
+      value: Level 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f3c56d5ca5c508489b294c863102086, type: 3}
