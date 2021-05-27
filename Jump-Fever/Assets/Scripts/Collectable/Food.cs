@@ -13,9 +13,9 @@ public class Food : Collectable
 	protected override void Collect()
 	{
 		player.energy = player.energy + 25;
-		if(player.energy >= 100)
+		if(player.energy >= player.maxEnergy)
 		{
-			player.energy = 100;
+			player.energy = player.maxEnergy;
 		}
 		base.Collect();
 	}
