@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerJump : Player
 {
 	private float jumpHeight = 8f;
-	private float jumpCount = 0;
+	private bool canDoubleJump = false;
 	
     protected override void Start()
     {
@@ -15,22 +15,19 @@ public class PlayerJump : Player
     protected override void Update()
     {
         base.Update();
+		
 		if(Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			if(IsTouchingGround())
 			{
+				canDoubleJump = true;
 				playerRb.velocity = new Vector2(playerRb.velocity.x * Time.fixedDeltaTime, jumpHeight);
-				jumpCount += 1;
 			}
-			else if(jumpCount == 1)
+			else if(canDoubleJump)
 			{
 				playerRb.velocity = new Vector2(playerRb.velocity.x * Time.fixedDeltaTime, jumpHeight);
-				jumpCount += 1;
+				canDoubleJump = false;
 			}
-		}
-		if(jumpCount >= 2 && IsTouchingGround())
-		{
-			jumpCount = 0;
 		}
     }
 }
