@@ -26,8 +26,11 @@ public class MoveGround : MonoBehaviour
     {
 		groundRb = GetComponent<Rigidbody2D>();
 		
+		//get the start and end position
 		startPosition = transform.position;
 		endPosition = endPoint.position;
+		
+		//get the min and max of x and y direction
 		leftXLimit = Mathf.Min(startPosition.x, endPosition.x);
 		rightXLimit = Mathf.Max(startPosition.x, endPosition.x);
 		upYLimit = Mathf.Max(startPosition.y, endPosition.y);
@@ -74,12 +77,16 @@ public class MoveGround : MonoBehaviour
 		{
 			if(transform.position.y > upYLimit)
 			{
+				//put the ground to its path
 				transform.position = new Vector3(transform.position.x, upYLimit, transform.position.z);
+				//reverse the velocity
 				groundRb.velocity = new Vector2(groundRb.velocity.x, -groundRb.velocity.y);
 			}
 			if(transform.position.y < downYLimit)
 			{
+				//put the ground to its path
 				transform.position = new Vector3(transform.position.x, downYLimit, transform.position.z);
+				//reverse the velocity
 				groundRb.velocity = new Vector2(groundRb.velocity.x, -groundRb.velocity.y);
 			}
 		}
@@ -91,18 +98,23 @@ public class MoveGround : MonoBehaviour
 	
 	private void FlipToRight()
 	{
+		//put the ground to its path
 		transform.position = new Vector2(leftXLimit, transform.position.y);
+		//reverse move direction
 		moveDirection *= -1;
 	}
 	
 	private void FlipToLeft()
 	{
+		//put the ground to its path
 		transform.position = new Vector2(rightXLimit, transform.position.y);
+		//reverse move direction
 		moveDirection *= -1;
 	}
 	
 	private void GetMoveVelocity()
 	{
+		//calculate the moving velocity in x and y direction
 		moveVelocity = new Vector2(endPosition.x - startPosition.x, endPosition.y - startPosition.y).normalized * moveSpeed;
 	}
 }

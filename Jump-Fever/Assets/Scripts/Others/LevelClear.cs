@@ -22,10 +22,14 @@ public class LevelClear : MonoBehaviour
 	
 	private void UpdatePlayerAttributes()
 	{
+		//increase health
 		player.health += 1;
+		//boost max energy
 		player.maxEnergy += 10;
+		//use the coin to power up the bullet
 		playerBullet.bulletPower += (player.coin / 10f);
 		player.coin = 0;
+		//reset the player energy to max
 		player.energy = player.maxEnergy;
 	}
 	

@@ -43,7 +43,6 @@ public class GameUIManager : MonoBehaviour
 	
 	private void UpdateEnergyBar()
 	{
-		//energyBar.fillAmount = Mathf.Lerp(energyBar.fillAmount, player.energy / player.maxEnergy, 1);
 		energyBarNewWidth = player.energy / player.maxEnergy * energyBarMaxWidth;
 		energyBar.sizeDelta = new Vector2(energyBarNewWidth,energyBarMaxHeight);
 		if(player.energy < 0.3 * player.maxEnergy)

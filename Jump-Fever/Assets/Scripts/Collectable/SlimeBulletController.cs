@@ -5,6 +5,7 @@ using System;
 
 public class SlimeBulletController : MonoBehaviour
 {
+	//change the slime bullet to the selectde character's bullet
 	[SerializeField] private GameObject Din;
 	[SerializeField] private GameObject Don;
 	[SerializeField] GameObject DinBulletCollectable;
@@ -33,22 +34,26 @@ public class SlimeBulletController : MonoBehaviour
 	{
 		if(playerGameObj.GetComponent<Animator>().runtimeAnimatorController == Din.GetComponent<Animator>().runtimeAnimatorController)
 		{
+			//change the bullet to din's bullet
 			ToDinBullet();
 		}
 		if(playerGameObj.GetComponent<Animator>().runtimeAnimatorController == Don.GetComponent<Animator>().runtimeAnimatorController)
 		{
+			//change the bullet to don's bullet
 			ToDonBullet();
 		}
 	}
 	
 	private void ToDinBullet()
 	{
+		//change sprite and animator
 		bulletSr.sprite = DinBulletCollectable.GetComponent<SpriteRenderer>().sprite;
 		bulletAnim.runtimeAnimatorController = DinBulletCollectable.GetComponent<Animator>().runtimeAnimatorController as RuntimeAnimatorController;
 	}
 	
 	private void ToDonBullet()
 	{
+		change sprite and animator
 		bulletSr.sprite = DonBulletCollectable.GetComponent<SpriteRenderer>().sprite;
 		bulletAnim.runtimeAnimatorController = DonBulletCollectable.GetComponent<Animator>().runtimeAnimatorController as RuntimeAnimatorController;
 	}

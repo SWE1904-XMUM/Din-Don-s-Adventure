@@ -24,6 +24,7 @@ public class StoryTextController : MonoBehaviour
     {
         if(storyTextRb.position.y >= stopPosition.position.y)
 		{
+			//show the next button only when the story reaches its end position
 			storyTextRb.velocity = new Vector2(0, 0);
 			storyTextRb.position = stopPosition.position;
 			Invoke("EnableNextButton",1);

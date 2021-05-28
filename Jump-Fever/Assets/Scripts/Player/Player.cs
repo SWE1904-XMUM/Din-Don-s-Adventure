@@ -38,8 +38,10 @@ public class Player : MonoBehaviour
     {
 		if(energy <= 0)
 		{
+			//reset energy
 			energy = maxEnergy;
 			health -= 1;
+			//put the player back to the start position in the level
 			transform.position = GameObject.Find("PlayerStartPosition").transform.position;
 		}
 		if(health <= 0)

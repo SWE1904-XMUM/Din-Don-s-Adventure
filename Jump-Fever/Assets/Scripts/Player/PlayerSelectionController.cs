@@ -22,6 +22,7 @@ public class PlayerSelectionController : MonoBehaviour
 	
     public void SelectDin()
 	{
+		//change the sprite and animator to Din
 		playerSr.sprite = Din.GetComponent<SpriteRenderer>().sprite;
 		playerAnim.runtimeAnimatorController = Din.GetComponent<Animator>().runtimeAnimatorController as RuntimeAnimatorController;
 		playerShoot.bulletObj = DinBullet.GetComponent<Bullet>();
@@ -29,6 +30,7 @@ public class PlayerSelectionController : MonoBehaviour
 	
 	public void SelectDon()
 	{
+		//change the sprite and animator to Don
 		playerSr.sprite = Don.GetComponent<SpriteRenderer>().sprite;
 		playerAnim.runtimeAnimatorController = Don.GetComponent<Animator>().runtimeAnimatorController as RuntimeAnimatorController;
 		playerShoot.bulletObj = DonBullet.GetComponent<Bullet>();

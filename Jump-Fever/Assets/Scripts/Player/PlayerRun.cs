@@ -26,11 +26,13 @@ public class PlayerRun : Player
 	{
 		if(hInput < 0)
 		{
+			//move to left
 			playerRb.velocity = new Vector2(-runSpeed, playerRb.velocity.y);
 			transform.eulerAngles = new Vector3(0, 180, 0);
 		}
 		if(hInput > 0)
 		{
+			//move to right
 			playerRb.velocity = new Vector2(runSpeed, playerRb.velocity.y);
 			transform.eulerAngles = new Vector3(0, 0, 0);
 		}

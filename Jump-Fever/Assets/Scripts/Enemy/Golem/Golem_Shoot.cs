@@ -15,7 +15,8 @@ public class Golem_Shoot : Golem
 	protected override void Start()
 	{
 		base.Start();
-
+		
+		//get the time of next shoot
 		nextShootForArm = Time.time;
 	}
 
@@ -25,6 +26,7 @@ public class Golem_Shoot : Golem
 
 		if(!enemyAnim.GetBool("die"))
 		{
+			//shoot if golem is not die
 			Shoot();
 		}
 	}
@@ -35,7 +37,8 @@ public class Golem_Shoot : Golem
 		{
 			//release arm bullet
 			Instantiate(bulletObjArm, shootPoint.transform.position, Quaternion.identity);
-
+			
+			//get the time of next shoot
 			nextShootForLaser = Time.time + shootRate;
 			nextShootForArm = Time.time + shootRate * 2;
 		}
@@ -43,8 +46,9 @@ public class Golem_Shoot : Golem
 		//release laser
 		if (Time.time >= nextShootForLaser)
 		{
-
 			Instantiate(bulletObjLaser, shootPoint.transform.position, Quaternion.identity);
+			
+			//get the time of next shoot (laser)
 			nextShootForLaser = Time.time + shootRate * 4;
 		}
 	}

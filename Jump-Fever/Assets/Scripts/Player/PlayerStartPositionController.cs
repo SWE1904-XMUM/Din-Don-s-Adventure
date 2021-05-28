@@ -9,7 +9,9 @@ public class PlayerStartPositionController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		//find the player
         player = GameObject.Find("Player");
+		//put the player at the start position
 		player.transform.position = transform.position;
     }
 

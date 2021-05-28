@@ -20,11 +20,13 @@ public class PlayerJump : Player
 		{
 			if(IsTouchingGround())
 			{
+				//first jump
 				canDoubleJump = true;
 				playerRb.velocity = new Vector2(playerRb.velocity.x * Time.fixedDeltaTime, jumpHeight);
 			}
 			else if(canDoubleJump)
 			{
+				//double jump
 				playerRb.velocity = new Vector2(playerRb.velocity.x * Time.fixedDeltaTime, jumpHeight);
 				canDoubleJump = false;
 			}

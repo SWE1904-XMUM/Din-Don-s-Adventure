@@ -18,6 +18,7 @@ public class GameClear : MonoBehaviour
 		golem = GameObject.Find("Golem");
 		if(golem == null)
 		{
+			//if golem destroyed
 			Destroy(player);
 			SceneManager.LoadScene("ClearScene");
 		}

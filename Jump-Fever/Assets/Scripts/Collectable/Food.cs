@@ -15,6 +15,7 @@ public class Food : Collectable
 		player.energy = player.energy + 25;
 		if(player.energy >= player.maxEnergy)
 		{
+			//if the new energy exceeds the max, set the energy to the max
 			player.energy = player.maxEnergy;
 		}
 		base.Collect();

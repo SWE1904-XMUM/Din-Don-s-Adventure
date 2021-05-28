@@ -24,6 +24,7 @@ public class Bullet : MonoBehaviour
     {
         if(Mathf.Abs(transform.position.x - shootingXPosition) > maxBulletDistance)
 		{
+			//travelled distance exceed maxBulletDistance
 			Destroy(gameObject);
 		}
     }
