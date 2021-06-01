@@ -53,7 +53,7 @@ public class SlimeBulletController : MonoBehaviour
 	
 	private void ToDonBullet()
 	{
-		change sprite and animator
+		//change sprite and animator
 		bulletSr.sprite = DonBulletCollectable.GetComponent<SpriteRenderer>().sprite;
 		bulletAnim.runtimeAnimatorController = DonBulletCollectable.GetComponent<Animator>().runtimeAnimatorController as RuntimeAnimatorController;
 	}
